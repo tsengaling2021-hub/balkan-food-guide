@@ -1,0 +1,596 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#080b10">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Balkan Food">
+  <link rel="manifest" href='data:application/manifest+json,{"name":"Balkan Food Guide 2026","short_name":"Balkan Food","start_url":"./food-guide.html","display":"standalone","background_color":"#080b10","theme_color":"#080b10"}'>
+  <title>Balkan Food Guide 2026 - iPhone Edition</title>
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #080b10;
+      --panel: #121821;
+      --panel-2: #182130;
+      --line: #2b3748;
+      --text: #f4f7fb;
+      --muted: #aeb9c8;
+      --soft: #d7deea;
+      --accent: #2dd4bf;
+      --accent-2: #f6c453;
+      --danger: #ff7b72;
+      --ok: #8bd66f;
+      --shadow: 0 18px 44px rgba(0, 0, 0, .36);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC", "PingFang TC", sans-serif;
+    }
+
+    * { box-sizing: border-box; }
+
+    html {
+      background: var(--bg);
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background:
+        linear-gradient(180deg, rgba(45, 212, 191, .12), rgba(8, 11, 16, 0) 260px),
+        var(--bg);
+      color: var(--text);
+      font-size: 17px;
+      line-height: 1.45;
+      padding: env(safe-area-inset-top) 0 env(safe-area-inset-bottom);
+    }
+
+    a { color: inherit; }
+
+    button, a.button {
+      min-height: 48px;
+      border: 0;
+      border-radius: 8px;
+      font: inherit;
+      font-weight: 800;
+      text-decoration: none;
+      -webkit-tap-highlight-color: transparent;
+      touch-action: manipulation;
+    }
+
+    .app {
+      width: min(100%, 760px);
+      margin: 0 auto;
+      padding: 14px 14px 28px;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      margin: -14px -14px 12px;
+      padding: calc(10px + env(safe-area-inset-top)) 14px 10px;
+      background: rgba(8, 11, 16, .93);
+      border-bottom: 1px solid var(--line);
+      backdrop-filter: blur(18px);
+    }
+
+    .title-row {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 10px;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 20px;
+      letter-spacing: 0;
+      line-height: 1.15;
+    }
+
+    .offline {
+      flex: 0 0 auto;
+      display: inline-flex;
+      align-items: center;
+      min-height: 32px;
+      padding: 5px 9px;
+      border: 1px solid rgba(139, 214, 111, .42);
+      border-radius: 999px;
+      color: var(--ok);
+      font-size: 13px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .jump-row {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 8px;
+      align-items: center;
+    }
+
+    .day-select {
+      width: 100%;
+      min-height: 48px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel-2);
+      color: var(--text);
+      font: inherit;
+      font-size: 18px;
+      font-weight: 800;
+      padding: 0 12px;
+    }
+
+    .summary-toggle {
+      min-width: 76px;
+      padding: 0 12px;
+      background: #243044;
+      color: var(--text);
+    }
+
+    .notice {
+      border: 1px solid rgba(246, 196, 83, .34);
+      background: rgba(246, 196, 83, .11);
+      color: #ffe2a3;
+      border-radius: 8px;
+      padding: 10px 12px;
+      margin: 12px 0;
+      font-size: 15px;
+      font-weight: 650;
+    }
+
+    .day-card {
+      scroll-margin-top: 118px;
+      margin: 14px 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .day-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 12px;
+      padding: 16px 14px 12px;
+      border-bottom: 1px solid var(--line);
+      background: linear-gradient(90deg, rgba(45, 212, 191, .14), rgba(246, 196, 83, .08));
+    }
+
+    .day-title {
+      margin: 0;
+      font-size: 25px;
+      line-height: 1.12;
+      letter-spacing: 0;
+    }
+
+    .country {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .quick-main {
+      flex: 0 0 auto;
+      min-width: 112px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 12px;
+      background: var(--accent);
+      color: #06110f;
+    }
+
+    .places {
+      display: grid;
+      gap: 10px;
+      padding: 12px;
+    }
+
+    .place {
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: rgba(255, 255, 255, .035);
+      padding: 12px;
+    }
+
+    .place.main {
+      border-color: rgba(45, 212, 191, .58);
+      background: rgba(45, 212, 191, .08);
+    }
+
+    .role {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 8px;
+      margin-bottom: 8px;
+      color: var(--accent-2);
+      font-size: 14px;
+      font-weight: 900;
+    }
+
+    .fit {
+      color: var(--text);
+      font-size: 13px;
+      font-weight: 850;
+      padding: 3px 7px;
+      border-radius: 999px;
+      background: rgba(255, 255, 255, .1);
+      white-space: nowrap;
+    }
+
+    .name {
+      margin: 0 0 3px;
+      font-size: 22px;
+      line-height: 1.18;
+      letter-spacing: 0;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 15px;
+      font-weight: 650;
+      margin-bottom: 10px;
+    }
+
+    .chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin: 10px 0;
+    }
+
+    .chip {
+      min-height: 34px;
+      display: inline-flex;
+      align-items: center;
+      padding: 5px 9px;
+      border-radius: 999px;
+      background: #202b3d;
+      color: var(--soft);
+      font-size: 14px;
+      font-weight: 800;
+    }
+
+    .details {
+      display: grid;
+      gap: 5px;
+      margin: 10px 0 12px;
+      color: var(--soft);
+      font-size: 15px;
+    }
+
+    .details b { color: var(--text); }
+
+    .actions {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 10px;
+    }
+
+    .nav-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 10px;
+      background: var(--accent);
+      color: #06110f;
+    }
+
+    .search-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 10px;
+      background: #2a3548;
+      color: var(--text);
+      border: 1px solid var(--line);
+    }
+
+    .summary {
+      display: none;
+      margin-top: 12px;
+    }
+
+    .summary.active { display: block; }
+    .days.hidden { display: none; }
+
+    .summary-card {
+      margin: 10px 0;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: var(--panel);
+      padding: 12px;
+    }
+
+    .summary-card h2 {
+      margin: 0 0 8px;
+      font-size: 20px;
+    }
+
+    .summary-grid {
+      display: grid;
+      gap: 5px;
+      color: var(--soft);
+      font-size: 15px;
+    }
+
+    .summary-grid b { color: var(--text); }
+
+    .footer {
+      color: var(--muted);
+      font-size: 13px;
+      padding: 18px 2px 4px;
+    }
+
+    @media (max-width: 390px) {
+      .app { padding-left: 10px; padding-right: 10px; }
+      .topbar { margin-left: -10px; margin-right: -10px; padding-left: 10px; padding-right: 10px; }
+      .day-title { font-size: 23px; }
+      .quick-main { min-width: 98px; }
+      .name { font-size: 20px; }
+      .actions { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+  <main class="app">
+    <header class="topbar">
+      <div class="title-row">
+        <h1>Balkan Food Guide 2026</h1>
+        <span class="offline">離線可看</span>
+      </div>
+      <div class="jump-row">
+        <select class="day-select" id="daySelect" aria-label="選擇日期"></select>
+        <button class="summary-toggle" id="summaryToggle" type="button">總覽</button>
+      </div>
+    </header>
+
+    <section class="notice">
+      旅行中先按每張卡右上角「主餐廳導航」。網路不穩時仍可看店名、餐點和地址；導航會交給 Google Maps。
+    </section>
+
+    <section class="days" id="days"></section>
+    <section class="summary" id="summary" aria-label="總覽表"></section>
+
+    <footer class="footer">
+      Google Maps 導航連結格式：Current Location → 餐廳。營業時間和臨時休店請到現場前再用 Google Maps 確認。
+    </footer>
+  </main>
+
+  <script>
+    const roleLabels = {
+      main: "主推薦餐廳",
+      backup: "備案餐廳",
+      emergency: "保底餐廳",
+      cafe: "咖啡店"
+    };
+
+    const days = [
+      {
+        day: 2, city: "Verona", cityZh: "維羅納", country: "Italy",
+        places: [
+          p("main", "Osteria al Duca", "Italy", "Verona", "Via Arche Scaligere 2, 37121 Verona, Italy", ["Bigoli pasta", "Risotto all'Amarone", "Grilled meat"], "2人分食推薦", "€25~35", "高"),
+          p("backup", "La Bottega della Gina", "Italy", "Verona", "Via Fama 4/C, 37121 Verona, Italy", ["Fresh pasta", "Tortellini", "Lasagna"], "1人份", "€10~18", "高"),
+          p("emergency", "Altro Impero Pizza Natura", "Italy", "Verona", "Verona city center, Verona, Italy", ["Margherita pizza", "Vegetable pizza", "Salad"], "2人分食推薦", "€12~20", "高"),
+          p("cafe", "Caffe Dante Bistrot", "Italy", "Verona", "Piazza dei Signori 2, 37121 Verona, Italy", ["Espresso", "Tiramisu", "Light lunch"], "1人份", "€8~18", "中高")
+        ]
+      },
+      {
+        day: 3, city: "Bled", cityZh: "布萊德", country: "Slovenia",
+        places: [
+          p("main", "Park Restaurant Cafe", "Slovenia", "Bled", "Cesta svobode 10, 4260 Bled, Slovenia", ["Bled Cream Cake", "Trout", "Pasta"], "4人分享推薦", "€12~25", "高"),
+          p("backup", "Pizzeria Rustika", "Slovenia", "Bled", "Riklijeva cesta 13, 4260 Bled, Slovenia", ["Pizza", "Salad", "Cevapcici"], "2人分食推薦", "€12~20", "高"),
+          p("emergency", "Public Vegan Kitchen", "Slovenia", "Bled", "Ljubljanska cesta 4, 4260 Bled, Slovenia", ["Vegan burger", "Soup", "Cake"], "1人份", "€10~18", "中高"),
+          p("cafe", "Devil Caffe Bar", "Slovenia", "Bled", "Cesta svobode 15, 4260 Bled, Slovenia", ["Coffee", "Ice cream", "Dessert"], "1人份", "€6~12", "中高")
+        ]
+      },
+      {
+        day: 4, city: "Ljubljana", cityZh: "盧比安納", country: "Slovenia",
+        places: [
+          p("main", "Gostilna Sestica", "Slovenia", "Ljubljana", "Slovenska cesta 40, 1000 Ljubljana, Slovenia", ["Slovenian stew", "Grilled meat", "Prekmurska gibanica"], "2人分食推薦", "€18~28", "中高"),
+          p("backup", "Julija", "Slovenia", "Ljubljana", "Stari trg 9, 1000 Ljubljana, Slovenia", ["Seafood pasta", "Risotto", "Grilled fish"], "2人分食推薦", "€22~35", "高"),
+          p("emergency", "Pops Place", "Slovenia", "Ljubljana", "Cankarjevo nabrezje 3, 1000 Ljubljana, Slovenia", ["Burger", "Fries", "Craft drinks"], "1人份", "€15~25", "高"),
+          p("cafe", "Cacao", "Slovenia", "Ljubljana", "Petkovskovo nabrezje 3, 1000 Ljubljana, Slovenia", ["Coffee", "Gelato", "Cake"], "1人份", "€6~14", "高")
+        ]
+      },
+      {
+        day: 5, city: "Postojna", cityZh: "波斯托伊納", country: "Slovenia",
+        places: [
+          p("main", "Proteus Restaurant", "Slovenia", "Postojna", "Titov trg 1, 6230 Postojna, Slovenia", ["Pasta", "Risotto", "Grilled dishes"], "2人分食推薦", "€18~30", "中高"),
+          p("backup", "Marche Postojna", "Slovenia", "Postojna", "Postojna service area, 6230 Postojna, Slovenia", ["Soup", "Roast chicken", "Pasta"], "1人份", "€12~20", "高"),
+          p("emergency", "Postojna Cave Cafe", "Slovenia", "Postojna", "Jamska cesta 30, 6230 Postojna, Slovenia", ["Sandwich", "Cake", "Hot drinks"], "1人份", "€8~15", "中高"),
+          p("cafe", "Postojna Cave Cafe", "Slovenia", "Postojna", "Jamska cesta 30, 6230 Postojna, Slovenia", ["Coffee", "Cream cake", "Snack"], "1人份", "€6~12", "中高")
+        ]
+      },
+      {
+        day: 6, city: "Zadar", cityZh: "扎達爾", country: "Croatia",
+        places: [
+          p("main", "Pet Bunara", "Croatia", "Zadar", "Stratico ulica 1, 23000 Zadar, Croatia", ["Grilled fish", "Seafood pasta", "Local vegetables"], "2人分食推薦", "€25~38", "高"),
+          p("backup", "Konoba Skoblar", "Croatia", "Zadar", "Trg Petra Zoranica 3, 23000 Zadar, Croatia", ["Black risotto", "Grilled squid", "Fish soup"], "2人分食推薦", "€20~32", "高"),
+          p("emergency", "Restaurant Bruschetta", "Croatia", "Zadar", "Mihovila Pavlinovica 12, 23000 Zadar, Croatia", ["Bruschetta", "Pasta", "Seafood"], "2人分食推薦", "€18~30", "高"),
+          p("cafe", "Kavana Danica", "Croatia", "Zadar", "Siroka ulica, 23000 Zadar, Croatia", ["Coffee", "Cake", "Ice cream"], "1人份", "€5~12", "中高")
+        ]
+      },
+      {
+        day: 7, city: "Mostar", cityZh: "莫斯塔爾", country: "Bosnia and Herzegovina",
+        places: [
+          p("main", "Sadrvan", "Bosnia and Herzegovina", "Mostar", "Jusovina 11, 88000 Mostar, Bosnia and Herzegovina", ["Bosnian mixed plate", "Dolma", "Grilled meat"], "4人分享推薦", "€12~22", "高"),
+          p("backup", "Hindin Han", "Bosnia and Herzegovina", "Mostar", "Jusovina bb, 88000 Mostar, Bosnia and Herzegovina", ["Cevapi", "Grilled trout", "Meat platter"], "2人分食推薦", "€12~22", "高"),
+          p("emergency", "Tima Irma", "Bosnia and Herzegovina", "Mostar", "Onešcukova 7, 88000 Mostar, Bosnia and Herzegovina", ["Cevapi", "Mixed grill", "Flatbread"], "4人分享推薦", "€8~18", "高"),
+          p("cafe", "Cafe de Alma", "Bosnia and Herzegovina", "Mostar", "Rade Bitange, 88000 Mostar, Bosnia and Herzegovina", ["Bosnian coffee", "Turkish delight", "Juice"], "1人份", "€3~8", "中高")
+        ]
+      },
+      {
+        day: 8, city: "Split", cityZh: "斯普利特", country: "Croatia",
+        places: [
+          p("main", "Konoba Fetivi", "Croatia", "Split", "Tomica stine 4, 21000 Split, Croatia", ["Grilled fish", "Black risotto", "Seafood platter"], "4人分享推薦", "€25~40", "高"),
+          p("backup", "Villa Spiza", "Croatia", "Split", "Kruziceva 3, 21000 Split, Croatia", ["Daily pasta", "Seafood", "Local vegetables"], "2人分食推薦", "€18~30", "高"),
+          p("emergency", "Fife", "Croatia", "Split", "Trumbiceva obala 11, 21000 Split, Croatia", ["Fish stew", "Grilled meat", "Pasta"], "2人分食推薦", "€12~22", "高"),
+          p("cafe", "D16 Coffee", "Croatia", "Split", "Dominisova 16, 21000 Split, Croatia", ["Coffee", "Cold brew", "Pastry"], "1人份", "€4~9", "高")
+        ]
+      },
+      {
+        day: 9, city: "Dubrovnik", cityZh: "杜布羅夫尼克", country: "Croatia",
+        places: [
+          p("main", "Dubravka 1836", "Croatia", "Dubrovnik", "Brsalje 1, 20000 Dubrovnik, Croatia", ["Seafood pasta", "Grilled fish", "Risotto"], "2人分食推薦", "€25~40", "高"),
+          p("backup", "Barba", "Croatia", "Dubrovnik", "Boskoviceva 5, 20000 Dubrovnik, Croatia", ["Octopus burger", "Fried seafood", "Fish soup"], "1人份", "€15~25", "高"),
+          p("emergency", "Lady Pi Pi", "Croatia", "Dubrovnik", "Antuninska 23, 20000 Dubrovnik, Croatia", ["Grilled meat", "Grilled squid", "Salad"], "2人分食推薦", "€18~30", "中高"),
+          p("cafe", "Cogito Coffee", "Croatia", "Dubrovnik", "Stajeva 5, 20000 Dubrovnik, Croatia", ["Coffee", "Iced coffee", "Pastry"], "1人份", "€4~9", "高")
+        ]
+      },
+      {
+        day: 10, city: "Dubrovnik", cityZh: "杜布羅夫尼克", country: "Croatia",
+        places: [
+          p("main", "Taj Mahal Dubrovnik", "Croatia", "Dubrovnik", "Nikole Gucetica 2, 20000 Dubrovnik, Croatia", ["Cevapi", "Bosnian pot", "Burek"], "2人分食推薦", "€18~30", "高"),
+          p("backup", "Barba", "Croatia", "Dubrovnik", "Boskoviceva 5, 20000 Dubrovnik, Croatia", ["Octopus burger", "Fried seafood", "Fish soup"], "1人份", "€15~25", "高"),
+          p("emergency", "Dolce Vita", "Croatia", "Dubrovnik", "Naljeskoviceva 1a, 20000 Dubrovnik, Croatia", ["Gelato", "Crepe", "Waffle"], "1人份", "€6~14", "中高"),
+          p("cafe", "Dolce Vita", "Croatia", "Dubrovnik", "Naljeskoviceva 1a, 20000 Dubrovnik, Croatia", ["Coffee", "Gelato", "Dessert"], "1人份", "€5~12", "中高")
+        ]
+      },
+      {
+        day: 11, city: "Sarajevo", cityZh: "塞拉耶佛", country: "Bosnia and Herzegovina",
+        places: [
+          p("main", "Dveri", "Bosnia and Herzegovina", "Sarajevo", "Prote Bakovica 12, 71000 Sarajevo, Bosnia and Herzegovina", ["Bosnian pot", "Klepe dumplings", "Grilled dishes"], "2人分食推薦", "€12~24", "高"),
+          p("backup", "Cevabdzinica Zeljo", "Bosnia and Herzegovina", "Sarajevo", "Kundurdziluk 19, 71000 Sarajevo, Bosnia and Herzegovina", ["Cevapi", "Somun bread", "Yogurt"], "1人份", "€5~10", "高"),
+          p("emergency", "Cevabdzinica Zeljo", "Bosnia and Herzegovina", "Sarajevo", "Kundurdziluk 19, 71000 Sarajevo, Bosnia and Herzegovina", ["Cevapi", "Soup", "Flatbread"], "1人份", "€5~10", "高"),
+          p("cafe", "Miris Dunja", "Bosnia and Herzegovina", "Sarajevo", "Cizmedziluk 9, 71000 Sarajevo, Bosnia and Herzegovina", ["Bosnian coffee", "Cake", "Juice"], "1人份", "€4~9", "中高")
+        ]
+      },
+      {
+        day: 12, city: "Noventa Outlet", cityZh: "諾文塔 Outlet", country: "Italy",
+        places: [
+          p("main", "Farinella", "Italy", "Noventa di Piave", "McArthurGlen Designer Outlet, Via Marco Polo 1, 30020 Noventa di Piave VE, Italy", ["Pizza", "Pasta", "Salad"], "2人分食推薦", "€15~25", "高"),
+          p("backup", "Baccanale", "Italy", "Noventa di Piave", "McArthurGlen Designer Outlet, Via Marco Polo 1, 30020 Noventa di Piave VE, Italy", ["Pasta", "Risotto", "Grilled dishes"], "2人分食推薦", "€18~30", "中高"),
+          p("emergency", "Starbucks Noventa Outlet", "Italy", "Noventa di Piave", "McArthurGlen Designer Outlet, Via Marco Polo 1, 30020 Noventa di Piave VE, Italy", ["Sandwich", "Muffin", "Coffee"], "1人份", "€8~15", "高"),
+          p("cafe", "Starbucks Noventa Outlet", "Italy", "Noventa di Piave", "McArthurGlen Designer Outlet, Via Marco Polo 1, 30020 Noventa di Piave VE, Italy", ["Latte", "Cold brew", "Snack"], "1人份", "€5~12", "高")
+        ]
+      },
+      {
+        day: 13, city: "Milan", cityZh: "米蘭", country: "Italy",
+        places: [
+          p("main", "Luini", "Italy", "Milan", "Via Santa Radegonda 16, 20121 Milano MI, Italy", ["Panzerotti", "Mozzarella tomato", "Ham cheese"], "1人份", "€5~10", "高"),
+          p("backup", "Piz", "Italy", "Milan", "Via Torino 34, 20123 Milano MI, Italy", ["Margherita pizza", "Marinara pizza", "Napoli pizza"], "2人分食推薦", "€12~22", "高"),
+          p("emergency", "Spontini", "Italy", "Milan", "Galleria Vittorio Emanuele II, 20121 Milano MI, Italy", ["Thick slice pizza", "Lasagna", "Salad"], "1人份", "€8~15", "高"),
+          p("cafe", "Marchesi 1824", "Italy", "Milan", "Galleria Vittorio Emanuele II, 20121 Milano MI, Italy", ["Espresso", "Pastry", "Cake"], "1人份", "€8~18", "中高")
+        ]
+      },
+      {
+        day: 14, city: "Malpensa Airport", cityZh: "馬爾彭薩機場", country: "Italy",
+        places: [
+          p("main", "Lavazza", "Italy", "Malpensa Airport", "Milan Malpensa Airport, 21010 Ferno VA, Italy", ["Coffee", "Sandwich", "Croissant"], "1人份", "€7~14", "高"),
+          p("backup", "Rossopomodoro", "Italy", "Malpensa Airport", "Milan Malpensa Airport, 21010 Ferno VA, Italy", ["Pizza", "Pasta", "Salad"], "2人分食推薦", "€15~25", "高"),
+          p("emergency", "Rossopomodoro", "Italy", "Malpensa Airport", "Milan Malpensa Airport, 21010 Ferno VA, Italy", ["Pizza", "Pasta", "Dessert"], "1人份", "€15~25", "高"),
+          p("cafe", "Lavazza", "Italy", "Malpensa Airport", "Milan Malpensa Airport, 21010 Ferno VA, Italy", ["Espresso", "Cappuccino", "Snack"], "1人份", "€5~12", "高")
+        ]
+      }
+    ];
+
+    function p(role, name, country, city, address, recommended, portion, budget, fit) {
+      const query = `${name} ${city} ${country}`;
+      const mapsQuery = encodeURIComponent(query).replace(/%20/g, "+");
+      return {
+        role, name, country, city, address, recommended, portion, budget, fit,
+        searchUrl: `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`,
+        navUrl: `https://www.google.com/maps/dir/?api=1&destination=${mapsQuery}`
+      };
+    }
+
+    function moneyRange(day) {
+      const values = day.places.map(place => place.budget.replace("€", ""));
+      return `€${values[0]} / 保底 ${day.places[2].budget}`;
+    }
+
+    function render() {
+      const select = document.getElementById("daySelect");
+      const daysEl = document.getElementById("days");
+      const summaryEl = document.getElementById("summary");
+
+      select.innerHTML = days.map(day => `<option value="day-${day.day}">Day ${day.day}｜${day.city}（${day.cityZh}）</option>`).join("");
+
+      daysEl.innerHTML = days.map(day => `
+        <article class="day-card" id="day-${day.day}">
+          <header class="day-head">
+            <div>
+              <h2 class="day-title">Day ${day.day}｜${day.city}（${day.cityZh}）</h2>
+              <div class="country">${day.country}</div>
+            </div>
+            <a class="button quick-main" href="${day.places[0].navUrl}" target="_blank" rel="noopener">主餐廳導航</a>
+          </header>
+          <div class="places">
+            ${day.places.map(place => renderPlace(place)).join("")}
+          </div>
+        </article>
+      `).join("");
+
+      summaryEl.innerHTML = `
+        <div class="notice">總覽用來出發前快速核對；現場使用請切回日期卡片。</div>
+        ${days.map(day => `
+          <article class="summary-card">
+            <h2>Day ${day.day}｜${day.city}（${day.cityZh}）</h2>
+            <div class="summary-grid">
+              <div><b>Main:</b> ${day.places[0].name}</div>
+              <div><b>Backup:</b> ${day.places[1].name}</div>
+              <div><b>Emergency:</b> ${day.places[2].name}</div>
+              <div><b>Budget:</b> ${moneyRange(day)}</div>
+            </div>
+          </article>
+        `).join("")}
+      `;
+    }
+
+    function renderPlace(place) {
+      return `
+        <section class="place ${place.role === "main" ? "main" : ""}">
+          <div class="role">
+            <span>${roleLabels[place.role]}</span>
+            <span class="fit">亞洲口味 ${place.fit}</span>
+          </div>
+          <h3 class="name">${place.name}</h3>
+          <div class="meta">${place.city}, ${place.country}</div>
+          <div class="chips">
+            ${place.recommended.map(item => `<span class="chip">${item}</span>`).join("")}
+          </div>
+          <div class="details">
+            <div><b>份量:</b> ${place.portion}</div>
+            <div><b>每人預估:</b> ${place.budget}</div>
+            <div><b>地址:</b> ${place.address}</div>
+          </div>
+          <div class="actions">
+            <a class="button nav-btn" href="${place.navUrl}" target="_blank" rel="noopener">導航</a>
+            <a class="button search-btn" href="${place.searchUrl}" target="_blank" rel="noopener">地圖搜尋</a>
+          </div>
+        </section>
+      `;
+    }
+
+    render();
+
+    const select = document.getElementById("daySelect");
+    select.addEventListener("change", () => {
+      document.getElementById("summary").classList.remove("active");
+      document.getElementById("days").classList.remove("hidden");
+      document.getElementById("summaryToggle").textContent = "總覽";
+      document.getElementById(select.value).scrollIntoView({ block: "start" });
+    });
+
+    document.getElementById("summaryToggle").addEventListener("click", event => {
+      const summary = document.getElementById("summary");
+      const daysList = document.getElementById("days");
+      const showing = summary.classList.toggle("active");
+      daysList.classList.toggle("hidden", showing);
+      event.currentTarget.textContent = showing ? "卡片" : "總覽";
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  </script>
+</body>
+</html>
