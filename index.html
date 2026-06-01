@@ -143,6 +143,157 @@
       font-weight: 650;
     }
 
+    .moments {
+      border: 1px solid rgba(45, 212, 191, .28);
+      background: rgba(18, 24, 33, .86);
+      border-radius: 8px;
+      padding: 12px;
+      margin: 12px 0 14px;
+    }
+
+    .moments h2 {
+      margin: 0 0 8px;
+      font-size: 19px;
+      line-height: 1.2;
+      letter-spacing: 0;
+    }
+
+    .moment-list {
+      display: grid;
+      gap: 10px;
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      color: var(--soft);
+      font-size: 16px;
+      font-weight: 800;
+    }
+
+    .moment-item {
+      border-top: 1px solid var(--line);
+      padding-top: 10px;
+    }
+
+    .moment-item:first-child {
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    .moment-title {
+      color: var(--text);
+      font-size: 18px;
+      font-weight: 950;
+    }
+
+    .moment-restaurant {
+      margin: 4px 0 9px;
+      color: var(--accent-2);
+      font-size: 17px;
+      font-weight: 900;
+    }
+
+    .today-planner {
+      border: 1px solid rgba(45, 212, 191, .45);
+      background: rgba(18, 24, 33, .92);
+      border-radius: 8px;
+      padding: 12px;
+      margin: 12px 0 14px;
+      box-shadow: var(--shadow);
+    }
+
+    .today-planner h2 {
+      margin: 0 0 10px;
+      font-size: 21px;
+      line-height: 1.18;
+      letter-spacing: 0;
+    }
+
+    .today-tabs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 8px;
+      margin-bottom: 12px;
+    }
+
+    .today-tab {
+      min-height: 50px;
+      background: #243044;
+      color: var(--text);
+      border: 1px solid var(--line);
+    }
+
+    .today-tab.active {
+      background: #2563eb;
+      color: #ffffff;
+      border-color: #60a5fa;
+    }
+
+    .today-card {
+      border: 1px solid rgba(246, 196, 83, .48);
+      border-radius: 8px;
+      background: rgba(246, 196, 83, .1);
+      padding: 12px;
+    }
+
+    .today-day {
+      color: #ffe08a;
+      font-size: 22px;
+      font-weight: 950;
+      line-height: 1.12;
+      margin-bottom: 8px;
+    }
+
+    .today-restaurant {
+      color: var(--text);
+      font-size: 25px;
+      font-weight: 950;
+      line-height: 1.12;
+      margin-bottom: 10px;
+    }
+
+    .today-section {
+      margin: 10px 0;
+    }
+
+    .today-label {
+      color: #f4d37a;
+      font-size: 16px;
+      font-weight: 950;
+      margin-bottom: 5px;
+    }
+
+    .today-list {
+      display: grid;
+      gap: 4px;
+      margin: 0;
+      padding-left: 20px;
+      color: var(--text);
+      font-size: 17px;
+      font-weight: 820;
+    }
+
+    .today-budget {
+      color: #ffe08a;
+      font-size: 20px;
+      font-weight: 950;
+      margin: 12px 0;
+    }
+
+    .today-ended {
+      color: var(--text);
+      font-size: 20px;
+      font-weight: 900;
+      line-height: 1.35;
+    }
+
+    .today-ended span {
+      display: block;
+      color: var(--muted);
+      font-size: 16px;
+      font-weight: 760;
+      margin-top: 6px;
+    }
+
     .day-card {
       scroll-margin-top: 118px;
       margin: 14px 0;
@@ -184,14 +335,91 @@
       align-items: center;
       justify-content: center;
       padding: 0 12px;
-      background: var(--accent);
-      color: #06110f;
+      background: #2563eb;
+      color: #ffffff;
     }
 
     .places {
       display: grid;
       gap: 10px;
       padding: 12px;
+    }
+
+    .highlight {
+      margin: 12px 12px 0;
+      border: 1px solid rgba(246, 196, 83, .66);
+      border-radius: 8px;
+      background: linear-gradient(180deg, rgba(246, 196, 83, .22), rgba(246, 196, 83, .1));
+      color: #fff4cf;
+      padding: 12px;
+    }
+
+    .highlight.priority {
+      border-color: rgba(255, 214, 102, .92);
+      box-shadow: inset 4px 0 0 rgba(255, 214, 102, .95);
+    }
+
+    .highlight-title {
+      margin: 0 0 8px;
+      color: #ffe08a;
+      font-size: 19px;
+      font-weight: 950;
+      line-height: 1.15;
+      letter-spacing: 0;
+    }
+
+    .highlight-restaurant {
+      margin: 0 0 4px;
+      color: var(--text);
+      font-size: 25px;
+      font-weight: 950;
+      line-height: 1.14;
+      letter-spacing: 0;
+    }
+
+    .highlight-location {
+      color: #f4d37a;
+      font-size: 17px;
+      font-weight: 850;
+      margin-bottom: 10px;
+    }
+
+    .highlight-foods {
+      display: grid;
+      gap: 5px;
+      color: var(--text);
+      font-size: 19px;
+      font-weight: 900;
+      margin: 10px 0;
+    }
+
+    .highlight-budget {
+      color: #ffe08a;
+      font-size: 20px;
+      font-weight: 950;
+      margin: 10px 0;
+    }
+
+    .highlight-note {
+      color: #fff4cf;
+      font-size: 15px;
+      font-weight: 760;
+      margin: 8px 0 12px;
+    }
+
+    .primary-nav {
+      width: 100%;
+      min-height: 52px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0 14px;
+      border-radius: 8px;
+      background: #2563eb;
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 950;
+      text-decoration: none;
     }
 
     .place {
@@ -272,21 +500,24 @@
 
     .actions {
       display: grid;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 1fr;
       gap: 8px;
       margin-top: 10px;
     }
 
     .nav-btn {
+      width: 100%;
+      min-height: 52px;
       display: inline-flex;
       align-items: center;
       justify-content: center;
       padding: 0 10px;
-      background: var(--accent);
-      color: #06110f;
+      background: #2563eb;
+      color: #ffffff;
     }
 
     .search-btn {
+      width: 100%;
       display: inline-flex;
       align-items: center;
       justify-content: center;
@@ -338,7 +569,6 @@
       .day-title { font-size: 23px; }
       .quick-main { min-width: 98px; }
       .name { font-size: 20px; }
-      .actions { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -359,6 +589,47 @@
       旅行中先按每張卡右上角「主餐廳導航」。網路不穩時仍可看店名、餐點和地址；導航會交給 Google Maps。
     </section>
 
+    <section class="today-planner" aria-label="今天明天全部">
+      <h2>📅 今天吃什麼？</h2>
+      <div class="today-tabs" role="group" aria-label="首頁切換">
+        <button class="today-tab active" id="todayBtn" type="button">今天</button>
+        <button class="today-tab" id="tomorrowBtn" type="button">明天</button>
+        <button class="today-tab" id="allBtn" type="button">全部</button>
+      </div>
+      <div id="todayPanel"></div>
+    </section>
+
+    <section class="moments" aria-label="Top 5 Food Moments">
+      <h2>Top 5 Food Moments</h2>
+      <ol class="moment-list">
+        <li class="moment-item">
+          <div class="moment-title">1. Split 海鮮日</div>
+          <div class="moment-restaurant">Konoba Fetivi</div>
+          <a class="button primary-nav" href="https://www.google.com/maps/dir/?api=1&destination=Konoba+Fetivi+Split+Croatia" target="_blank" rel="noopener">導航</a>
+        </li>
+        <li class="moment-item">
+          <div class="moment-title">2. Dubrovnik 古城海鮮</div>
+          <div class="moment-restaurant">Barba</div>
+          <a class="button primary-nav" href="https://www.google.com/maps/dir/?api=1&destination=Barba+Dubrovnik+Croatia" target="_blank" rel="noopener">導航</a>
+        </li>
+        <li class="moment-item">
+          <div class="moment-title">3. Mostar 河魚</div>
+          <div class="moment-restaurant">Hindin Han</div>
+          <a class="button primary-nav" href="https://www.google.com/maps/dir/?api=1&destination=Hindin+Han+Mostar+Bosnia+and+Herzegovina" target="_blank" rel="noopener">導航</a>
+        </li>
+        <li class="moment-item">
+          <div class="moment-title">4. Bled 奶油蛋糕</div>
+          <div class="moment-restaurant">Park Restaurant Cafe</div>
+          <a class="button primary-nav" href="https://www.google.com/maps/dir/?api=1&destination=Park+Restaurant+Cafe+Bled+Slovenia" target="_blank" rel="noopener">導航</a>
+        </li>
+        <li class="moment-item">
+          <div class="moment-title">5. Milan Luini</div>
+          <div class="moment-restaurant">Luini</div>
+          <a class="button primary-nav" href="https://www.google.com/maps/dir/?api=1&destination=Luini+Milan+Italy" target="_blank" rel="noopener">導航</a>
+        </li>
+      </ol>
+    </section>
+
     <section class="days" id="days"></section>
     <section class="summary" id="summary" aria-label="總覽表"></section>
 
@@ -375,9 +646,79 @@
       cafe: "咖啡店"
     };
 
+    const tripStart = "2026-06-28";
+    const quickPlan = {
+      "Osteria al Duca": {
+        recommended: ["Bigoli pasta", "Risotto all'Amarone"],
+        sharing: ["Bigoli pasta ×2", "Risotto all'Amarone ×1", "Grilled meat ×1", "Salad ×1"],
+        perPerson: "約 €25~35 / 人"
+      },
+      "Park Restaurant Cafe": {
+        recommended: ["Bled Cream Cake", "Trout", "Pasta"],
+        sharing: ["Bled Cream Cake ×2", "Trout ×1", "Pasta ×1", "Coffee ×2"],
+        perPerson: "約 €12~25 / 人"
+      },
+      "Julija": {
+        recommended: ["Seafood pasta", "Risotto", "Grilled fish"],
+        sharing: ["Seafood pasta ×1", "Risotto ×1", "Grilled fish ×1", "Salad ×1"],
+        perPerson: "約 €22~35 / 人"
+      },
+      "Proteus Restaurant": {
+        recommended: ["Pasta", "Risotto", "Grilled dishes"],
+        sharing: ["Pasta ×2", "Risotto ×1", "Grilled dish ×1", "Soup ×1"],
+        perPerson: "約 €18~30 / 人"
+      },
+      "Restaurant Bruschetta": {
+        recommended: ["Seafood Risotto", "Seafood Pasta"],
+        sharing: ["Seafood Risotto ×1", "Seafood Pasta ×1", "Bruschetta ×1", "Salad ×1"],
+        perPerson: "約 €25~35 / 人"
+      },
+      "Hindin Han": {
+        recommended: ["Grilled Trout"],
+        sharing: ["Grilled Trout ×2", "Cevapi ×1", "Salad ×1", "Flatbread ×1"],
+        perPerson: "約 €15~22 / 人"
+      },
+      "Konoba Fetivi": {
+        recommended: ["Grilled Sea Bass", "Grilled Sea Bream", "Black Risotto"],
+        sharing: ["Sea Bass ×1", "Sea Bream ×1", "Black Risotto ×1", "Salad ×1"],
+        perPerson: "約 €22~25 / 人"
+      },
+      "Barba": {
+        recommended: ["Fried Shrimp", "Octopus Burger"],
+        sharing: ["Fried Shrimp ×2", "Octopus Burger ×2", "Fish soup ×1", "Fries ×1"],
+        perPerson: "約 €12~18 / 人"
+      },
+      "Taj Mahal Dubrovnik": {
+        recommended: ["Cevapi", "Bosnian pot", "Burek"],
+        sharing: ["Cevapi ×2", "Bosnian pot ×1", "Burek ×1", "Salad ×1"],
+        perPerson: "約 €18~30 / 人"
+      },
+      "Dveri": {
+        recommended: ["Bosnian pot", "Klepe dumplings"],
+        sharing: ["Bosnian pot ×1", "Klepe dumplings ×1", "Grilled dishes ×1", "Soup ×1"],
+        perPerson: "約 €12~24 / 人"
+      },
+      "Farinella": {
+        recommended: ["Pizza", "Pasta", "Salad"],
+        sharing: ["Pizza ×2", "Pasta ×1", "Salad ×1", "Dessert ×1"],
+        perPerson: "約 €15~25 / 人"
+      },
+      "Luini": {
+        recommended: ["Panzerotti", "Mozzarella tomato"],
+        sharing: ["Panzerotti ×4", "Sweet panzerotti ×1", "Drink ×4"],
+        perPerson: "約 €5~10 / 人"
+      },
+      "Lavazza": {
+        recommended: ["Coffee", "Sandwich", "Croissant"],
+        sharing: ["Sandwich ×4", "Coffee ×4", "Croissant ×2"],
+        perPerson: "約 €7~14 / 人"
+      }
+    };
+
     const days = [
       {
         day: 2, city: "Verona", cityZh: "維羅納", country: "Italy",
+        highlight: h("Osteria al Duca", ["🍝 Bigoli 義大利麵", "🍷 Amarone 燉飯"], "€25~35", "義大利第一餐，老城區熱門時段容易等位。"),
         places: [
           p("main", "Osteria al Duca", "Italy", "Verona", "Via Arche Scaligere 2, 37121 Verona, Italy", ["Bigoli pasta", "Risotto all'Amarone", "Grilled meat"], "2人分食推薦", "€25~35", "高"),
           p("backup", "La Bottega della Gina", "Italy", "Verona", "Via Fama 4/C, 37121 Verona, Italy", ["Fresh pasta", "Tortellini", "Lasagna"], "1人份", "€10~18", "高"),
@@ -387,6 +728,7 @@
       },
       {
         day: 3, city: "Bled", cityZh: "布萊德", country: "Slovenia",
+        highlight: h("Park Restaurant Cafe", ["🍰 Bled 奶油蛋糕", "🐟 鱒魚"], "€12~25", "湖區甜點日，下午茶時段人多。"),
         places: [
           p("main", "Park Restaurant Cafe", "Slovenia", "Bled", "Cesta svobode 10, 4260 Bled, Slovenia", ["Bled Cream Cake", "Trout", "Pasta"], "4人分享推薦", "€12~25", "高"),
           p("backup", "Pizzeria Rustika", "Slovenia", "Bled", "Riklijeva cesta 13, 4260 Bled, Slovenia", ["Pizza", "Salad", "Cevapcici"], "2人分食推薦", "€12~20", "高"),
@@ -396,6 +738,7 @@
       },
       {
         day: 4, city: "Ljubljana", cityZh: "盧比安納", country: "Slovenia",
+        highlight: h("Julija", ["🍝 海鮮義大利麵", "🍚 燉飯"], "€22~35", "市中心晚餐日，老城餐廳座位少。"),
         places: [
           p("main", "Gostilna Sestica", "Slovenia", "Ljubljana", "Slovenska cesta 40, 1000 Ljubljana, Slovenia", ["Slovenian stew", "Grilled meat", "Prekmurska gibanica"], "2人分食推薦", "€18~28", "中高"),
           p("backup", "Julija", "Slovenia", "Ljubljana", "Stari trg 9, 1000 Ljubljana, Slovenia", ["Seafood pasta", "Risotto", "Grilled fish"], "2人分食推薦", "€22~35", "高"),
@@ -405,6 +748,7 @@
       },
       {
         day: 5, city: "Postojna", cityZh: "波斯托伊納", country: "Slovenia",
+        highlight: h("Proteus Restaurant", ["🍝 義大利麵", "🍚 燉飯"], "€18~30", "鐘乳石洞行程日，吃飯以快速不迷路為優先。"),
         places: [
           p("main", "Proteus Restaurant", "Slovenia", "Postojna", "Titov trg 1, 6230 Postojna, Slovenia", ["Pasta", "Risotto", "Grilled dishes"], "2人分食推薦", "€18~30", "中高"),
           p("backup", "Marche Postojna", "Slovenia", "Postojna", "Postojna service area, 6230 Postojna, Slovenia", ["Soup", "Roast chicken", "Pasta"], "1人份", "€12~20", "高"),
@@ -414,6 +758,7 @@
       },
       {
         day: 6, city: "Zadar", cityZh: "扎達爾", country: "Croatia",
+        highlight: h("Restaurant Bruschetta", ["🦐 海鮮燉飯", "🍝 海鮮義大利麵"], "€25~35", "亞得里亞海海鮮初登場，海邊餐廳晚餐容易客滿。"),
         places: [
           p("main", "Pet Bunara", "Croatia", "Zadar", "Stratico ulica 1, 23000 Zadar, Croatia", ["Grilled fish", "Seafood pasta", "Local vegetables"], "2人分食推薦", "€25~38", "高"),
           p("backup", "Konoba Skoblar", "Croatia", "Zadar", "Trg Petra Zoranica 3, 23000 Zadar, Croatia", ["Black risotto", "Grilled squid", "Fish soup"], "2人分食推薦", "€20~32", "高"),
@@ -423,6 +768,7 @@
       },
       {
         day: 7, city: "Mostar", cityZh: "莫斯塔爾", country: "Bosnia and Herzegovina",
+        highlight: h("Hindin Han", ["🐟 烤鱒魚"], "€15~22", "波士尼亞河魚，老橋附近靠河景座位容易客滿。"),
         places: [
           p("main", "Sadrvan", "Bosnia and Herzegovina", "Mostar", "Jusovina 11, 88000 Mostar, Bosnia and Herzegovina", ["Bosnian mixed plate", "Dolma", "Grilled meat"], "4人分享推薦", "€12~22", "高"),
           p("backup", "Hindin Han", "Bosnia and Herzegovina", "Mostar", "Jusovina bb, 88000 Mostar, Bosnia and Herzegovina", ["Cevapi", "Grilled trout", "Meat platter"], "2人分食推薦", "€12~22", "高"),
@@ -432,6 +778,7 @@
       },
       {
         day: 8, city: "Split", cityZh: "斯普利特", country: "Croatia",
+        highlight: h("Konoba Fetivi", ["🐟 烤海鯛", "🐟 烤鱸魚", "🦑 墨魚燉飯"], "€20~30", "Priority 1：整趟旅程最佳海鮮日，熱門晚餐時段非常容易客滿。", true),
         places: [
           p("main", "Konoba Fetivi", "Croatia", "Split", "Tomica stine 4, 21000 Split, Croatia", ["Grilled fish", "Black risotto", "Seafood platter"], "4人分享推薦", "€25~40", "高"),
           p("backup", "Villa Spiza", "Croatia", "Split", "Kruziceva 3, 21000 Split, Croatia", ["Daily pasta", "Seafood", "Local vegetables"], "2人分食推薦", "€18~30", "高"),
@@ -441,6 +788,7 @@
       },
       {
         day: 9, city: "Dubrovnik", cityZh: "杜布羅夫尼克", country: "Croatia",
+        highlight: h("Barba", ["🍤 炸蝦", "🐙 章魚漢堡"], "€12~18", "Priority 1：古城內高CP值海鮮，用餐尖峰人很多。", true),
         places: [
           p("main", "Dubravka 1836", "Croatia", "Dubrovnik", "Brsalje 1, 20000 Dubrovnik, Croatia", ["Seafood pasta", "Grilled fish", "Risotto"], "2人分食推薦", "€25~40", "高"),
           p("backup", "Barba", "Croatia", "Dubrovnik", "Boskoviceva 5, 20000 Dubrovnik, Croatia", ["Octopus burger", "Fried seafood", "Fish soup"], "1人份", "€15~25", "高"),
@@ -450,6 +798,7 @@
       },
       {
         day: 10, city: "Dubrovnik", cityZh: "杜布羅夫尼克", country: "Croatia",
+        highlight: h("Taj Mahal Dubrovnik", ["🥙 Cevapi 烤肉", "🥘 波士尼亞鍋"], "€18~30", "杜布羅夫尼克第二天，老城巷弄容易迷路。"),
         places: [
           p("main", "Taj Mahal Dubrovnik", "Croatia", "Dubrovnik", "Nikole Gucetica 2, 20000 Dubrovnik, Croatia", ["Cevapi", "Bosnian pot", "Burek"], "2人分食推薦", "€18~30", "高"),
           p("backup", "Barba", "Croatia", "Dubrovnik", "Boskoviceva 5, 20000 Dubrovnik, Croatia", ["Octopus burger", "Fried seafood", "Fish soup"], "1人份", "€15~25", "高"),
@@ -459,6 +808,7 @@
       },
       {
         day: 11, city: "Sarajevo", cityZh: "塞拉耶佛", country: "Bosnia and Herzegovina",
+        highlight: h("Dveri", ["🥘 波士尼亞鍋", "🥟 Klepe 餃子"], "€12~24", "波士尼亞家常菜日，老城區座位有限。"),
         places: [
           p("main", "Dveri", "Bosnia and Herzegovina", "Sarajevo", "Prote Bakovica 12, 71000 Sarajevo, Bosnia and Herzegovina", ["Bosnian pot", "Klepe dumplings", "Grilled dishes"], "2人分食推薦", "€12~24", "高"),
           p("backup", "Cevabdzinica Zeljo", "Bosnia and Herzegovina", "Sarajevo", "Kundurdziluk 19, 71000 Sarajevo, Bosnia and Herzegovina", ["Cevapi", "Somun bread", "Yogurt"], "1人份", "€5~10", "高"),
@@ -468,6 +818,7 @@
       },
       {
         day: 12, city: "Noventa Outlet", cityZh: "諾文塔 Outlet", country: "Italy",
+        highlight: h("Farinella", ["🍕 Pizza", "🍝 Pasta"], "€15~25", "Outlet 採買日，吃飯以快速集合為優先。"),
         places: [
           p("main", "Farinella", "Italy", "Noventa di Piave", "McArthurGlen Designer Outlet, Via Marco Polo 1, 30020 Noventa di Piave VE, Italy", ["Pizza", "Pasta", "Salad"], "2人分食推薦", "€15~25", "高"),
           p("backup", "Baccanale", "Italy", "Noventa di Piave", "McArthurGlen Designer Outlet, Via Marco Polo 1, 30020 Noventa di Piave VE, Italy", ["Pasta", "Risotto", "Grilled dishes"], "2人分食推薦", "€18~30", "中高"),
@@ -477,6 +828,7 @@
       },
       {
         day: 13, city: "Milan", cityZh: "米蘭", country: "Italy",
+        highlight: h("Luini", ["🥟 Panzerotti", "🧀 起司番茄口味"], "€5~10", "米蘭最方便小吃，常排隊但翻桌快。"),
         places: [
           p("main", "Luini", "Italy", "Milan", "Via Santa Radegonda 16, 20121 Milano MI, Italy", ["Panzerotti", "Mozzarella tomato", "Ham cheese"], "1人份", "€5~10", "高"),
           p("backup", "Piz", "Italy", "Milan", "Via Torino 34, 20123 Milano MI, Italy", ["Margherita pizza", "Marinara pizza", "Napoli pizza"], "2人分食推薦", "€12~22", "高"),
@@ -486,6 +838,7 @@
       },
       {
         day: 14, city: "Malpensa Airport", cityZh: "馬爾彭薩機場", country: "Italy",
+        highlight: h("Lavazza", ["☕ 咖啡", "🥪 三明治"], "€7~14", "返程機場日，安檢與登機時間優先。"),
         places: [
           p("main", "Lavazza", "Italy", "Malpensa Airport", "Milan Malpensa Airport, 21010 Ferno VA, Italy", ["Coffee", "Sandwich", "Croissant"], "1人份", "€7~14", "高"),
           p("backup", "Rossopomodoro", "Italy", "Malpensa Airport", "Milan Malpensa Airport, 21010 Ferno VA, Italy", ["Pizza", "Pasta", "Salad"], "2人分食推薦", "€15~25", "高"),
@@ -503,6 +856,100 @@
         searchUrl: `https://www.google.com/maps/search/?api=1&query=${mapsQuery}`,
         navUrl: `https://www.google.com/maps/dir/?api=1&destination=${mapsQuery}`
       };
+    }
+
+    function h(restaurant, mustEat, budget, note, priority = false) {
+      return { restaurant, mustEat, budget, note, priority };
+    }
+
+    function dateForDay(dayNumber) {
+      const date = new Date(`${tripStart}T00:00:00`);
+      date.setDate(date.getDate() + dayNumber - 2);
+      return date;
+    }
+
+    function dateKey(date) {
+      const year = date.getFullYear();
+      const month = String(date.getMonth() + 1).padStart(2, "0");
+      const day = String(date.getDate()).padStart(2, "0");
+      return `${year}-${month}-${day}`;
+    }
+
+    function dayForOffset(offset) {
+      const firstDate = dateForDay(days[0].day);
+      const lastDate = dateForDay(days[days.length - 1].day);
+      const target = new Date();
+      target.setHours(0, 0, 0, 0);
+      target.setDate(target.getDate() + offset);
+
+      if (target > lastDate) return null;
+      if (target < firstDate) return days[offset === 0 ? 0 : 1] || days[0];
+
+      const key = dateKey(target);
+      return days.find(day => dateKey(dateForDay(day.day)) === key) || null;
+    }
+
+    function placeForHighlight(day) {
+      return day.places.find(place => place.name === day.highlight.restaurant) || day.places[0];
+    }
+
+    function setHomeMode(mode) {
+      document.getElementById("todayBtn").classList.toggle("active", mode === "today");
+      document.getElementById("tomorrowBtn").classList.toggle("active", mode === "tomorrow");
+      document.getElementById("allBtn").classList.toggle("active", mode === "all");
+
+      if (mode === "all") {
+        document.getElementById("todayPanel").innerHTML = `
+          <div class="today-card">
+            <div class="today-ended">全部日期<span>下方可查看 Day 2～Day 14 所有餐廳與導航。</span></div>
+          </div>
+        `;
+        document.getElementById("days").classList.remove("hidden");
+        document.getElementById("summary").classList.remove("active");
+        document.getElementById("summaryToggle").textContent = "總覽";
+        document.getElementById("days").scrollIntoView({ block: "start" });
+        return;
+      }
+
+      renderQuickDay(mode === "today" ? 0 : 1);
+    }
+
+    function renderQuickDay(offset) {
+      const panel = document.getElementById("todayPanel");
+      const day = dayForOffset(offset);
+
+      if (!day) {
+        panel.innerHTML = `
+          <div class="today-card">
+            <div class="today-ended">行程已結束<span>可從下方查看全部日期。</span></div>
+          </div>
+        `;
+        return;
+      }
+
+      const place = placeForHighlight(day);
+      const plan = quickPlan[day.highlight.restaurant] || {
+        recommended: place.recommended,
+        sharing: ["主餐 ×2", "配菜 ×1", "沙拉 ×1"],
+        perPerson: `約 ${day.highlight.budget} / 人`
+      };
+
+      panel.innerHTML = `
+        <div class="today-card">
+          <div class="today-day">Day ${day.day}｜${day.city}</div>
+          <div class="today-restaurant">${day.highlight.restaurant}</div>
+          <div class="today-section">
+            <div class="today-label">推薦:</div>
+            <ul class="today-list">${plan.recommended.map(item => `<li>${item}</li>`).join("")}</ul>
+          </div>
+          <div class="today-section">
+            <div class="today-label">四人分食:</div>
+            <ul class="today-list">${plan.sharing.map(item => `<li>${item}</li>`).join("")}</ul>
+          </div>
+          <div class="today-budget">${plan.perPerson}</div>
+          <a class="button primary-nav" href="${place.navUrl}" target="_blank" rel="noopener">導航前往</a>
+        </div>
+      `;
     }
 
     function moneyRange(day) {
@@ -526,6 +973,7 @@
             </div>
             <a class="button quick-main" href="${day.places[0].navUrl}" target="_blank" rel="noopener">主餐廳導航</a>
           </header>
+          ${renderHighlight(day.highlight)}
           <div class="places">
             ${day.places.map(place => renderPlace(place)).join("")}
           </div>
@@ -545,6 +993,21 @@
             </div>
           </article>
         `).join("")}
+      `;
+    }
+
+    function renderHighlight(highlight) {
+      const place = days.flatMap(day => day.places).find(item => item.name === highlight.restaurant);
+      return `
+        <section class="highlight ${highlight.priority ? "priority" : ""}">
+          <h3 class="highlight-title">🌟 今日重點</h3>
+          <div class="highlight-restaurant">${highlight.restaurant}</div>
+          <div class="highlight-location">📍 ${place.city}, ${place.country}</div>
+          <div class="highlight-foods">${highlight.mustEat.map(item => `<div>${item}</div>`).join("")}</div>
+          <div class="highlight-budget">💶 ${highlight.budget}</div>
+          <div class="highlight-note">${highlight.note}</div>
+          <a class="button primary-nav" href="${place.navUrl}" target="_blank" rel="noopener">導航前往</a>
+        </section>
       `;
     }
 
@@ -574,6 +1037,7 @@
     }
 
     render();
+    renderQuickDay(0);
 
     const select = document.getElementById("daySelect");
     select.addEventListener("change", () => {
@@ -591,6 +1055,10 @@
       event.currentTarget.textContent = showing ? "卡片" : "總覽";
       window.scrollTo({ top: 0, behavior: "smooth" });
     });
+
+    document.getElementById("todayBtn").addEventListener("click", () => setHomeMode("today"));
+    document.getElementById("tomorrowBtn").addEventListener("click", () => setHomeMode("tomorrow"));
+    document.getElementById("allBtn").addEventListener("click", () => setHomeMode("all"));
   </script>
 </body>
 </html>
