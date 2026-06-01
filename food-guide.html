@@ -1051,8 +1051,40 @@
 
     function imageSearchUrl(place, guide) {
       const firstDish = guide?.dishes?.[0]?.en || guide?.recommended?.[0]?.en || place.recommended[0] || place.name;
-      const query = `${firstDish} ${place.name} ${place.city}`;
+      const query = `${firstDish} ${place.name}`;
       return `https://www.google.com/search?tbm=isch&q=${encodeURIComponent(query).replace(/%20/g, "+")}`;
+    }
+
+    function dishNameMap() {
+      const map = new Map();
+      days.forEach(day => {
+        const sources = [
+          ...(day.highlight?.recommended || []),
+          ...day.places.flatMap(place => place.orderGuide?.dishes || [])
+        ];
+        sources.forEach(item => {
+          if (item.en && item.zh) map.set(item.en, item.zh);
+        });
+      });
+      return map;
+    }
+
+    function buildOrderGuide(place, day) {
+      if (place.orderGuide) return place.orderGuide;
+
+      const zhMap = dishNameMap();
+      const dishes = (place.recommended || []).map(name => ({
+        en: name,
+        zh: zhMap.get(name) || "店內招牌推薦",
+        portion: place.portion || "1~2人份",
+        price: place.budget || day.highlight?.budget || ""
+      }));
+
+      return {
+        dishes,
+        sharing: dishes.length ? [...dishes.slice(0, 3).map(item => `${item.en} ×1`), "Salad ×1"] : [],
+        perPerson: place.budget || day.highlight?.perPerson || day.highlight?.budget || ""
+      };
     }
 
     function allRestaurants() {
@@ -1295,7 +1327,7 @@
           ${renderHighlight(day)}
           ${renderAlternative(day)}
           <div class="places">
-            ${day.places.map(place => renderPlace(place)).join("")}
+            ${day.places.map(place => renderPlace(place, day)).join("")}
           </div>
         </article>
       `).join("");
@@ -1374,9 +1406,10 @@
     }
 
     function renderOrderGuide(place, guide) {
+      if (!guide?.dishes?.length) return "";
       return `
         <details class="order-guide">
-          <summary>推薦吃什麼</summary>
+          <summary>🍽 推薦怎麼點</summary>
           <div class="order-body">
             <div class="sharing-title">🍽️ 推薦怎麼點</div>
             ${guide.dishes.map(item => `
@@ -1390,15 +1423,15 @@
             <div class="sharing-box">
               <div class="sharing-title">👭 四人分食推薦</div>
               <ul class="sharing-list">${guide.sharing.map(item => `<li>${item}</li>`).join("")}</ul>
-              <div class="today-budget">${guide.perPerson}</div>
+              <div class="today-budget">💶 約 ${guide.perPerson}</div>
             </div>
           </div>
         </details>
       `;
     }
 
-    function renderPlace(place) {
-      const guide = place.orderGuide;
+    function renderPlace(place, day) {
+      const guide = buildOrderGuide(place, day);
       return `
         <section class="place ${place.role === "main" ? "main" : ""}">
           <div class="role">
@@ -1415,8 +1448,8 @@
             <div><b>每人預估:</b> ${place.budget}</div>
             <div><b>地址:</b> ${place.address}</div>
           </div>
-          ${guide ? renderOrderGuide(place, guide) : ""}
-          ${guide ? `<a class="photo-btn" href="${imageSearchUrl(place, guide)}">查看餐點照片</a>` : ""}
+          ${renderOrderGuide(place, guide)}
+          <a class="photo-btn" href="${imageSearchUrl(place, guide)}">📸 查看餐點照片</a>
           <div class="actions">
             <a class="button nav-btn" href="${place.navUrl}">${place.role === "main" || guide ? "導航前往" : "導航"}</a>
             <a class="button search-btn" href="${place.searchUrl}">地圖搜尋</a>
