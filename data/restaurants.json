@@ -1,0 +1,1987 @@
+{
+  "tripStart": "2026-06-28",
+  "days": {
+    "day2": {
+      "day": 2,
+      "city": "Verona",
+      "cityZh": "維羅納",
+      "country": "Italy",
+      "coordinates": {
+        "lat": 45.4384,
+        "lng": 10.9916
+      },
+      "highlight": {
+        "name": "Osteria al Duca",
+        "category": "",
+        "budget": "€25~35",
+        "note": "適合第一餐，亞洲胃接受度高。",
+        "priority": false,
+        "mustEat": [
+          "Bigoli Pasta｜粗管義大利麵",
+          "Risotto all'Amarone｜阿瑪羅尼紅酒燉飯"
+        ],
+        "recommended": [
+          {
+            "en": "Bigoli Pasta",
+            "zh": "粗管義大利麵",
+            "portion": "2人分食",
+            "price": "€14~18"
+          },
+          {
+            "en": "Risotto all'Amarone",
+            "zh": "阿瑪羅尼紅酒燉飯",
+            "portion": "2人分食",
+            "price": "€18~24"
+          }
+        ],
+        "sharing": [
+          "Bigoli ×2",
+          "Risotto ×1",
+          "Grilled Meat ×1",
+          "Salad ×1"
+        ],
+        "perPerson": "約 €25~35 / 人",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Osteria+al+Duca+Verona+Italy"
+      },
+      "restaurants": [
+        {
+          "role": "main",
+          "name": "Osteria al Duca",
+          "country": "Italy",
+          "city": "Verona",
+          "address": "Osteria al Duca, Verona, Italy",
+          "recommended": [
+            "Bigoli Pasta",
+            "Risotto all'Amarone"
+          ],
+          "portion": "四人分食推薦",
+          "budget": "€25~35 / 人",
+          "fit": "高",
+          "orderGuide": {
+            "dishes": [
+              {
+                "en": "Bigoli Pasta",
+                "zh": "粗管義大利麵",
+                "portion": "2人分食",
+                "price": "€14~18"
+              },
+              {
+                "en": "Risotto all'Amarone",
+                "zh": "阿瑪羅尼紅酒燉飯",
+                "portion": "2人分食",
+                "price": "€18~24"
+              }
+            ],
+            "sharing": [
+              "Bigoli ×2",
+              "Risotto ×1",
+              "Grilled Meat ×1",
+              "Salad ×1"
+            ],
+            "perPerson": "約 €25~35 / 人"
+          },
+          "finderTags": [
+            "pasta",
+            "local"
+          ],
+          "coordinates": {
+            "lat": 45.4384,
+            "lng": 10.9916
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Osteria+al+Duca+Verona+Italy"
+        },
+        {
+          "role": "backup",
+          "name": "La Bottega della Gina",
+          "country": "Italy",
+          "city": "Verona",
+          "address": "La Bottega della Gina, Verona, Italy",
+          "recommended": [
+            "Bigoli Pasta",
+            "Risotto all'Amarone"
+          ],
+          "portion": "1~2人份",
+          "budget": "€25~35 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "pasta",
+            "value",
+            "quick"
+          ],
+          "coordinates": {
+            "lat": 45.4384,
+            "lng": 10.9916
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=La+Bottega+della+Gina+Verona+Italy"
+        },
+        {
+          "role": "emergency",
+          "name": "Altro Impero Pizza Natura",
+          "country": "Italy",
+          "city": "Verona",
+          "address": "Altro Impero Pizza Natura, Verona, Italy",
+          "recommended": [
+            "Bigoli Pasta",
+            "Risotto all'Amarone"
+          ],
+          "portion": "1~2人份",
+          "budget": "€25~35 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "pasta",
+            "value",
+            "quick"
+          ],
+          "coordinates": {
+            "lat": 45.4384,
+            "lng": 10.9916
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Altro+Impero+Pizza+Natura+Verona+Italy"
+        }
+      ]
+    },
+    "day3": {
+      "day": 3,
+      "city": "Bled",
+      "cityZh": "布雷德湖",
+      "country": "Slovenia",
+      "coordinates": {
+        "lat": 46.3683,
+        "lng": 14.1146
+      },
+      "highlight": {
+        "name": "Oštarija Peglez'n",
+        "category": "",
+        "budget": "€20~30",
+        "note": "布雷德湖自由餐優先選擇。",
+        "priority": false,
+        "mustEat": [
+          "Seafood Risotto｜海鮮燉飯",
+          "Lake Trout｜湖鱒魚",
+          "Kremna Rezina｜布雷德奶油蛋糕"
+        ],
+        "recommended": [
+          {
+            "en": "Seafood Risotto",
+            "zh": "海鮮燉飯",
+            "portion": "2人分食",
+            "price": "€18~24"
+          },
+          {
+            "en": "Lake Trout",
+            "zh": "湖鱒魚",
+            "portion": "2人分食",
+            "price": "€18~26"
+          },
+          {
+            "en": "Kremna Rezina",
+            "zh": "布雷德奶油蛋糕",
+            "portion": "2人分食",
+            "price": "€6~9"
+          }
+        ],
+        "sharing": [
+          "Risotto ×2",
+          "Lake Trout ×1",
+          "Cake ×2"
+        ],
+        "perPerson": "約 €20~30 / 人",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=O%C5%A1tarija+Peglez'n+Bled+Slovenia"
+      },
+      "restaurants": [
+        {
+          "role": "main",
+          "name": "Oštarija Peglez'n",
+          "country": "Slovenia",
+          "city": "Bled",
+          "address": "Oštarija Peglez'n, Bled, Slovenia",
+          "recommended": [
+            "Seafood Risotto",
+            "Lake Trout",
+            "Kremna Rezina"
+          ],
+          "portion": "四人分食推薦",
+          "budget": "€20~30 / 人",
+          "fit": "高",
+          "orderGuide": {
+            "dishes": [
+              {
+                "en": "Seafood Risotto",
+                "zh": "海鮮燉飯",
+                "portion": "2人分食",
+                "price": "€18~24"
+              },
+              {
+                "en": "Lake Trout",
+                "zh": "湖鱒魚",
+                "portion": "2人分食",
+                "price": "€18~26"
+              },
+              {
+                "en": "Kremna Rezina",
+                "zh": "布雷德奶油蛋糕",
+                "portion": "2人分食",
+                "price": "€6~9"
+              }
+            ],
+            "sharing": [
+              "Risotto ×2",
+              "Lake Trout ×1",
+              "Cake ×2"
+            ],
+            "perPerson": "約 €20~30 / 人"
+          },
+          "finderTags": [
+            "seafood",
+            "local",
+            "must"
+          ],
+          "coordinates": {
+            "lat": 46.3683,
+            "lng": 14.1146
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=O%C5%A1tarija+Peglez'n+Bled+Slovenia"
+        },
+        {
+          "role": "backup",
+          "name": "Public & Vegan Kitchen Bled",
+          "country": "Slovenia",
+          "city": "Bled",
+          "address": "Public & Vegan Kitchen Bled, Bled, Slovenia",
+          "recommended": [
+            "Seafood Risotto",
+            "Lake Trout"
+          ],
+          "portion": "1~2人份",
+          "budget": "€20~30 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "value",
+            "quick"
+          ],
+          "coordinates": {
+            "lat": 46.3683,
+            "lng": 14.1146
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Public+%26+Vegan+Kitchen+Bled+Bled+Slovenia"
+        },
+        {
+          "role": "emergency",
+          "name": "Pizzeria Rustika",
+          "country": "Slovenia",
+          "city": "Bled",
+          "address": "Pizzeria Rustika, Bled, Slovenia",
+          "recommended": [
+            "Seafood Risotto",
+            "Lake Trout"
+          ],
+          "portion": "1~2人份",
+          "budget": "€20~30 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "value",
+            "quick"
+          ],
+          "coordinates": {
+            "lat": 46.3683,
+            "lng": 14.1146
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Pizzeria+Rustika+Bled+Slovenia"
+        }
+      ]
+    },
+    "day4": {
+      "day": 4,
+      "city": "Ljubljana",
+      "cityZh": "盧比安納",
+      "country": "Slovenia",
+      "coordinates": {
+        "lat": 46.0569,
+        "lng": 14.5058
+      },
+      "highlight": {
+        "name": "Gostilna Sestica",
+        "category": "",
+        "budget": "€18~30",
+        "note": "傳統斯洛維尼亞餐，適合四人分食。",
+        "priority": false,
+        "mustEat": [
+          "Beef Stew｜燉牛肉",
+          "Carniolan Sausage｜卡尼鄂拉香腸",
+          "Apple Strudel｜蘋果捲"
+        ],
+        "recommended": [
+          {
+            "en": "Beef Stew",
+            "zh": "燉牛肉",
+            "portion": "2人分食",
+            "price": "€14~20"
+          },
+          {
+            "en": "Carniolan Sausage",
+            "zh": "卡尼鄂拉香腸",
+            "portion": "2人分食",
+            "price": "€10~16"
+          },
+          {
+            "en": "Apple Strudel",
+            "zh": "蘋果捲",
+            "portion": "2人分食",
+            "price": "€5~8"
+          }
+        ],
+        "sharing": [],
+        "perPerson": "約 €18~30 / 人",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Gostilna+Sestica+Ljubljana+Slovenia"
+      },
+      "restaurants": [
+        {
+          "role": "main",
+          "name": "Gostilna Sestica",
+          "country": "Slovenia",
+          "city": "Ljubljana",
+          "address": "Gostilna Sestica, Ljubljana, Slovenia",
+          "recommended": [
+            "Beef Stew",
+            "Carniolan Sausage",
+            "Apple Strudel"
+          ],
+          "portion": "四人分食推薦",
+          "budget": "€18~30 / 人",
+          "fit": "高",
+          "orderGuide": {
+            "dishes": [
+              {
+                "en": "Beef Stew",
+                "zh": "燉牛肉",
+                "portion": "2人分食",
+                "price": "€14~20"
+              },
+              {
+                "en": "Carniolan Sausage",
+                "zh": "卡尼鄂拉香腸",
+                "portion": "2人分食",
+                "price": "€10~16"
+              },
+              {
+                "en": "Apple Strudel",
+                "zh": "蘋果捲",
+                "portion": "2人分食",
+                "price": "€5~8"
+              }
+            ],
+            "sharing": [],
+            "perPerson": "約 €18~30 / 人"
+          },
+          "finderTags": [
+            "meat",
+            "local",
+            "must"
+          ],
+          "coordinates": {
+            "lat": 46.0569,
+            "lng": 14.5058
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Gostilna+Sestica+Ljubljana+Slovenia"
+        },
+        {
+          "role": "backup",
+          "name": "Julija",
+          "country": "Slovenia",
+          "city": "Ljubljana",
+          "address": "Julija, Ljubljana, Slovenia",
+          "recommended": [
+            "Beef Stew",
+            "Carniolan Sausage"
+          ],
+          "portion": "1~2人份",
+          "budget": "€18~30 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "seafood",
+            "pasta",
+            "must"
+          ],
+          "coordinates": {
+            "lat": 46.0569,
+            "lng": 14.5058
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Julija+Ljubljana+Slovenia"
+        },
+        {
+          "role": "emergency",
+          "name": "Pop's Place",
+          "country": "Slovenia",
+          "city": "Ljubljana",
+          "address": "Pop's Place, Ljubljana, Slovenia",
+          "recommended": [
+            "Beef Stew",
+            "Carniolan Sausage"
+          ],
+          "portion": "1~2人份",
+          "budget": "€18~30 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "meat",
+            "value",
+            "quick"
+          ],
+          "coordinates": {
+            "lat": 46.0569,
+            "lng": 14.5058
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Pop's+Place+Ljubljana+Slovenia"
+        }
+      ]
+    },
+    "day5": {
+      "day": 5,
+      "city": "Postojna",
+      "cityZh": "波斯托伊納",
+      "country": "Slovenia",
+      "coordinates": {
+        "lat": 45.775,
+        "lng": 14.2136
+      },
+      "highlight": {
+        "name": "Proteus Restaurant",
+        "category": "",
+        "budget": "€15~25",
+        "note": "洞穴行程日，快速不迷路優先。",
+        "priority": false,
+        "mustEat": [
+          "Beef Soup｜牛肉湯",
+          "Roast Pork｜烤豬肉",
+          "Apple Pie｜蘋果派"
+        ],
+        "recommended": [
+          {
+            "en": "Beef Soup",
+            "zh": "牛肉湯",
+            "portion": "1~2人分食",
+            "price": "€6~10"
+          },
+          {
+            "en": "Roast Pork",
+            "zh": "烤豬肉",
+            "portion": "2人分食",
+            "price": "€14~22"
+          },
+          {
+            "en": "Apple Pie",
+            "zh": "蘋果派",
+            "portion": "2人分食",
+            "price": "€5~8"
+          }
+        ],
+        "sharing": [],
+        "perPerson": "約 €15~25 / 人",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Proteus+Restaurant+Postojna+Slovenia"
+      },
+      "restaurants": [
+        {
+          "role": "main",
+          "name": "Proteus Restaurant",
+          "country": "Slovenia",
+          "city": "Postojna",
+          "address": "Proteus Restaurant, Postojna, Slovenia",
+          "recommended": [
+            "Beef Soup",
+            "Roast Pork",
+            "Apple Pie"
+          ],
+          "portion": "四人分食推薦",
+          "budget": "€15~25 / 人",
+          "fit": "高",
+          "orderGuide": {
+            "dishes": [
+              {
+                "en": "Beef Soup",
+                "zh": "牛肉湯",
+                "portion": "1~2人分食",
+                "price": "€6~10"
+              },
+              {
+                "en": "Roast Pork",
+                "zh": "烤豬肉",
+                "portion": "2人分食",
+                "price": "€14~22"
+              },
+              {
+                "en": "Apple Pie",
+                "zh": "蘋果派",
+                "portion": "2人分食",
+                "price": "€5~8"
+              }
+            ],
+            "sharing": [],
+            "perPerson": "約 €15~25 / 人"
+          },
+          "finderTags": [
+            "meat",
+            "quick"
+          ],
+          "coordinates": {
+            "lat": 45.775,
+            "lng": 14.2136
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Proteus+Restaurant+Postojna+Slovenia"
+        },
+        {
+          "role": "backup",
+          "name": "Marché Postojna",
+          "country": "Slovenia",
+          "city": "Postojna",
+          "address": "Marché Postojna, Postojna, Slovenia",
+          "recommended": [
+            "Beef Soup",
+            "Roast Pork"
+          ],
+          "portion": "1~2人份",
+          "budget": "€15~25 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "value",
+            "quick"
+          ],
+          "coordinates": {
+            "lat": 45.775,
+            "lng": 14.2136
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=March%C3%A9+Postojna+Postojna+Slovenia"
+        },
+        {
+          "role": "emergency",
+          "name": "洞穴園區咖啡館",
+          "country": "Slovenia",
+          "city": "Postojna",
+          "address": "洞穴園區咖啡館, Postojna, Slovenia",
+          "recommended": [
+            "Beef Soup",
+            "Roast Pork"
+          ],
+          "portion": "1~2人份",
+          "budget": "€15~25 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "cafe",
+            "dessert",
+            "quick"
+          ],
+          "coordinates": {
+            "lat": 45.775,
+            "lng": 14.2136
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=%E6%B4%9E%E7%A9%B4%E5%9C%92%E5%8D%80%E5%92%96%E5%95%A1%E9%A4%A8+Postojna+Slovenia"
+        }
+      ]
+    },
+    "day6": {
+      "day": 6,
+      "city": "Zadar",
+      "cityZh": "扎達爾",
+      "country": "Croatia",
+      "coordinates": {
+        "lat": 44.1194,
+        "lng": 15.2314
+      },
+      "highlight": {
+        "name": "Restaurant Bruschetta",
+        "category": "",
+        "budget": "€25~35",
+        "note": "亞得里亞海海鮮初登場。",
+        "priority": true,
+        "mustEat": [
+          "Seafood Risotto｜海鮮燉飯",
+          "Seafood Pasta｜海鮮義大利麵",
+          "Grilled Fish｜烤魚"
+        ],
+        "recommended": [
+          {
+            "en": "Seafood Risotto",
+            "zh": "海鮮燉飯",
+            "portion": "2人分食",
+            "price": "€18~25"
+          },
+          {
+            "en": "Seafood Pasta",
+            "zh": "海鮮義大利麵",
+            "portion": "2人分食",
+            "price": "€18~25"
+          },
+          {
+            "en": "Grilled Fish",
+            "zh": "烤魚",
+            "portion": "2~3人分食",
+            "price": "€25~35"
+          }
+        ],
+        "sharing": [
+          "Seafood Risotto ×2",
+          "Grilled Fish ×1",
+          "Salad ×1"
+        ],
+        "perPerson": "約 €25~35 / 人",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Restaurant+Bruschetta+Zadar+Croatia"
+      },
+      "restaurants": [
+        {
+          "role": "main",
+          "name": "Restaurant Bruschetta",
+          "country": "Croatia",
+          "city": "Zadar",
+          "address": "Restaurant Bruschetta, Zadar, Croatia",
+          "recommended": [
+            "Seafood Risotto",
+            "Seafood Pasta",
+            "Grilled Fish"
+          ],
+          "portion": "四人分食推薦",
+          "budget": "€25~35 / 人",
+          "fit": "高",
+          "orderGuide": {
+            "dishes": [
+              {
+                "en": "Seafood Risotto",
+                "zh": "海鮮燉飯",
+                "portion": "2人分食",
+                "price": "€18~25"
+              },
+              {
+                "en": "Seafood Pasta",
+                "zh": "海鮮義大利麵",
+                "portion": "2人分食",
+                "price": "€18~25"
+              },
+              {
+                "en": "Grilled Fish",
+                "zh": "烤魚",
+                "portion": "2~3人分食",
+                "price": "€25~35"
+              }
+            ],
+            "sharing": [
+              "Seafood Risotto ×2",
+              "Grilled Fish ×1",
+              "Salad ×1"
+            ],
+            "perPerson": "約 €25~35 / 人"
+          },
+          "finderTags": [
+            "seafood",
+            "pasta",
+            "must"
+          ],
+          "coordinates": {
+            "lat": 44.1194,
+            "lng": 15.2314
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Restaurant+Bruschetta+Zadar+Croatia"
+        },
+        {
+          "role": "backup",
+          "name": "Pet Bunara",
+          "country": "Croatia",
+          "city": "Zadar",
+          "address": "Pet Bunara, Zadar, Croatia",
+          "recommended": [
+            "Seafood Risotto",
+            "Seafood Pasta"
+          ],
+          "portion": "1~2人份",
+          "budget": "€25~35 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "seafood",
+            "local",
+            "must"
+          ],
+          "coordinates": {
+            "lat": 44.1194,
+            "lng": 15.2314
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Pet+Bunara+Zadar+Croatia"
+        },
+        {
+          "role": "emergency",
+          "name": "Konoba Skoblar",
+          "country": "Croatia",
+          "city": "Zadar",
+          "address": "Konoba Skoblar, Zadar, Croatia",
+          "recommended": [
+            "Seafood Risotto",
+            "Seafood Pasta"
+          ],
+          "portion": "1~2人份",
+          "budget": "€25~35 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "seafood",
+            "local",
+            "value"
+          ],
+          "coordinates": {
+            "lat": 44.1194,
+            "lng": 15.2314
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Konoba+Skoblar+Zadar+Croatia"
+        }
+      ],
+      "coffee": {
+        "name": "Kavana Danica",
+        "note": "",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Kavana+Danica+Zadar+Croatia"
+      },
+      "foodHighlight": {
+        "title": "亞得里亞海海鮮初登場",
+        "rating": 4
+      }
+    },
+    "day7": {
+      "day": 7,
+      "city": "Mostar",
+      "cityZh": "莫斯塔爾",
+      "country": "Bosnia and Herzegovina",
+      "coordinates": {
+        "lat": 43.3438,
+        "lng": 17.8078
+      },
+      "highlight": {
+        "name": "Hindin Han",
+        "category": "",
+        "budget": "€15~25",
+        "note": "莫斯塔爾河魚重點日。",
+        "priority": true,
+        "mustEat": [
+          "Grilled Trout｜烤鱒魚",
+          "Bosnian Salad｜波士尼亞沙拉",
+          "National Platter｜民族拼盤"
+        ],
+        "recommended": [
+          {
+            "en": "Grilled Trout",
+            "zh": "烤鱒魚",
+            "portion": "2人分食",
+            "price": "€15~22"
+          },
+          {
+            "en": "Bosnian Salad",
+            "zh": "波士尼亞沙拉",
+            "portion": "4人分享",
+            "price": "€5~9"
+          },
+          {
+            "en": "National Platter",
+            "zh": "民族拼盤",
+            "portion": "4人分享",
+            "price": "€18~28"
+          }
+        ],
+        "sharing": [
+          "Trout ×2",
+          "National Platter ×1",
+          "Salad ×1"
+        ],
+        "perPerson": "約 €15~25 / 人",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Hindin+Han+Mostar+Bosnia+and+Herzegovina"
+      },
+      "restaurants": [
+        {
+          "role": "main",
+          "name": "Hindin Han",
+          "country": "Bosnia and Herzegovina",
+          "city": "Mostar",
+          "address": "Hindin Han, Mostar, Bosnia and Herzegovina",
+          "recommended": [
+            "Grilled Trout",
+            "Bosnian Salad",
+            "National Platter"
+          ],
+          "portion": "四人分食推薦",
+          "budget": "€15~25 / 人",
+          "fit": "高",
+          "orderGuide": {
+            "dishes": [
+              {
+                "en": "Grilled Trout",
+                "zh": "烤鱒魚",
+                "portion": "2人分食",
+                "price": "€15~22"
+              },
+              {
+                "en": "Bosnian Salad",
+                "zh": "波士尼亞沙拉",
+                "portion": "4人分享",
+                "price": "€5~9"
+              },
+              {
+                "en": "National Platter",
+                "zh": "民族拼盤",
+                "portion": "4人分享",
+                "price": "€18~28"
+              }
+            ],
+            "sharing": [
+              "Trout ×2",
+              "National Platter ×1",
+              "Salad ×1"
+            ],
+            "perPerson": "約 €15~25 / 人"
+          },
+          "finderTags": [
+            "seafood",
+            "local",
+            "must"
+          ],
+          "coordinates": {
+            "lat": 43.3438,
+            "lng": 17.8078
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Hindin+Han+Mostar+Bosnia+and+Herzegovina"
+        },
+        {
+          "role": "backup",
+          "name": "Restaurant Šadrvan",
+          "country": "Bosnia and Herzegovina",
+          "city": "Mostar",
+          "address": "Restaurant Šadrvan, Mostar, Bosnia and Herzegovina",
+          "recommended": [
+            "Grilled Trout",
+            "Bosnian Salad"
+          ],
+          "portion": "1~2人份",
+          "budget": "€15~25 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "meat",
+            "local",
+            "must"
+          ],
+          "coordinates": {
+            "lat": 43.3438,
+            "lng": 17.8078
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Restaurant+%C5%A0adrvan+Mostar+Bosnia+and+Herzegovina"
+        },
+        {
+          "role": "emergency",
+          "name": "Tima-Irma",
+          "country": "Bosnia and Herzegovina",
+          "city": "Mostar",
+          "address": "Tima-Irma, Mostar, Bosnia and Herzegovina",
+          "recommended": [
+            "Grilled Trout",
+            "Bosnian Salad"
+          ],
+          "portion": "1~2人份",
+          "budget": "€15~25 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "meat",
+            "value",
+            "local"
+          ],
+          "coordinates": {
+            "lat": 43.3438,
+            "lng": 17.8078
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Tima-Irma+Mostar+Bosnia+and+Herzegovina"
+        }
+      ],
+      "coffee": {
+        "name": "Cafe de Alma",
+        "note": "",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Cafe+de+Alma+Mostar+Bosnia+and+Herzegovina"
+      },
+      "foodHighlight": {
+        "title": "波士尼亞最佳河魚",
+        "rating": 4
+      }
+    },
+    "day8": {
+      "day": 8,
+      "city": "Sarajevo",
+      "cityZh": "塞拉耶佛",
+      "country": "Bosnia and Herzegovina",
+      "coordinates": {
+        "lat": 43.8563,
+        "lng": 18.4131
+      },
+      "highlight": {
+        "name": "Dveri",
+        "category": "",
+        "budget": "€10~20",
+        "note": "波士尼亞家常菜與甜點。",
+        "priority": false,
+        "mustEat": [
+          "Bosnian Pot｜波士尼亞燉鍋",
+          "Ćevapi｜烤肉捲",
+          "Baklava｜果仁蜜餅"
+        ],
+        "recommended": [
+          {
+            "en": "Bosnian Pot",
+            "zh": "波士尼亞燉鍋",
+            "portion": "2人分食",
+            "price": "€12~18"
+          },
+          {
+            "en": "Ćevapi",
+            "zh": "烤肉捲",
+            "portion": "1~2人分食",
+            "price": "€6~10"
+          },
+          {
+            "en": "Baklava",
+            "zh": "果仁蜜餅",
+            "portion": "2人分食",
+            "price": "€4~8"
+          }
+        ],
+        "sharing": [],
+        "perPerson": "約 €10~20 / 人",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Dveri+Sarajevo+Bosnia+and+Herzegovina"
+      },
+      "restaurants": [
+        {
+          "role": "main",
+          "name": "Dveri",
+          "country": "Bosnia and Herzegovina",
+          "city": "Sarajevo",
+          "address": "Dveri, Sarajevo, Bosnia and Herzegovina",
+          "recommended": [
+            "Bosnian Pot",
+            "Ćevapi",
+            "Baklava"
+          ],
+          "portion": "四人分食推薦",
+          "budget": "€10~20 / 人",
+          "fit": "高",
+          "orderGuide": {
+            "dishes": [
+              {
+                "en": "Bosnian Pot",
+                "zh": "波士尼亞燉鍋",
+                "portion": "2人分食",
+                "price": "€12~18"
+              },
+              {
+                "en": "Ćevapi",
+                "zh": "烤肉捲",
+                "portion": "1~2人分食",
+                "price": "€6~10"
+              },
+              {
+                "en": "Baklava",
+                "zh": "果仁蜜餅",
+                "portion": "2人分食",
+                "price": "€4~8"
+              }
+            ],
+            "sharing": [],
+            "perPerson": "約 €10~20 / 人"
+          },
+          "finderTags": [
+            "meat",
+            "local",
+            "must"
+          ],
+          "coordinates": {
+            "lat": 43.8563,
+            "lng": 18.4131
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Dveri+Sarajevo+Bosnia+and+Herzegovina"
+        },
+        {
+          "role": "backup",
+          "name": "Ćevabdžinica Željo",
+          "country": "Bosnia and Herzegovina",
+          "city": "Sarajevo",
+          "address": "Ćevabdžinica Željo, Sarajevo, Bosnia and Herzegovina",
+          "recommended": [
+            "Bosnian Pot",
+            "Ćevapi"
+          ],
+          "portion": "1~2人份",
+          "budget": "€10~20 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "meat",
+            "value",
+            "local",
+            "quick"
+          ],
+          "coordinates": {
+            "lat": 43.8563,
+            "lng": 18.4131
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=%C4%86evabd%C5%BEinica+%C5%BDeljo+Sarajevo+Bosnia+and+Herzegovina"
+        },
+        {
+          "role": "emergency",
+          "name": "Miris Dunja Cafe",
+          "country": "Bosnia and Herzegovina",
+          "city": "Sarajevo",
+          "address": "Miris Dunja Cafe, Sarajevo, Bosnia and Herzegovina",
+          "recommended": [
+            "Bosnian Pot",
+            "Ćevapi"
+          ],
+          "portion": "1~2人份",
+          "budget": "€10~20 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "cafe",
+            "dessert",
+            "local"
+          ],
+          "coordinates": {
+            "lat": 43.8563,
+            "lng": 18.4131
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Miris+Dunja+Cafe+Sarajevo+Bosnia+and+Herzegovina"
+        }
+      ],
+      "coffee": {
+        "name": "Miris Dunja",
+        "note": "",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Miris+Dunja+Sarajevo+Bosnia+and+Herzegovina"
+      },
+      "foodHighlight": {
+        "title": "波士尼亞家常菜",
+        "rating": 3
+      }
+    },
+    "day9": {
+      "day": 9,
+      "city": "Dubrovnik",
+      "cityZh": "杜布羅夫尼克",
+      "country": "Croatia",
+      "coordinates": {
+        "lat": 42.6507,
+        "lng": 18.0944
+      },
+      "highlight": {
+        "name": "Barba",
+        "category": "",
+        "budget": "€15~25",
+        "note": "古城高 CP 值海鮮。",
+        "priority": true,
+        "mustEat": [
+          "Octopus Burger｜章魚漢堡",
+          "Shrimp Burger｜鮮蝦漢堡",
+          "Fried Shrimp｜炸蝦"
+        ],
+        "recommended": [
+          {
+            "en": "Octopus Burger",
+            "zh": "章魚漢堡",
+            "portion": "1人份",
+            "price": "€10~15"
+          },
+          {
+            "en": "Shrimp Burger",
+            "zh": "鮮蝦漢堡",
+            "portion": "1人份",
+            "price": "€10~15"
+          },
+          {
+            "en": "Fried Shrimp",
+            "zh": "炸蝦",
+            "portion": "2人分食",
+            "price": "€12~18"
+          }
+        ],
+        "sharing": [
+          "Octopus Burger ×2",
+          "Fried Shrimp ×2"
+        ],
+        "perPerson": "約 €15~25 / 人",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Barba+Dubrovnik+Croatia"
+      },
+      "restaurants": [
+        {
+          "role": "main",
+          "name": "Barba",
+          "country": "Croatia",
+          "city": "Dubrovnik",
+          "address": "Barba, Dubrovnik, Croatia",
+          "recommended": [
+            "Octopus Burger",
+            "Shrimp Burger",
+            "Fried Shrimp"
+          ],
+          "portion": "四人分食推薦",
+          "budget": "€15~25 / 人",
+          "fit": "高",
+          "orderGuide": {
+            "dishes": [
+              {
+                "en": "Octopus Burger",
+                "zh": "章魚漢堡",
+                "portion": "1人份",
+                "price": "€10~15"
+              },
+              {
+                "en": "Shrimp Burger",
+                "zh": "鮮蝦漢堡",
+                "portion": "1人份",
+                "price": "€10~15"
+              },
+              {
+                "en": "Fried Shrimp",
+                "zh": "炸蝦",
+                "portion": "2人分食",
+                "price": "€12~18"
+              }
+            ],
+            "sharing": [
+              "Octopus Burger ×2",
+              "Fried Shrimp ×2"
+            ],
+            "perPerson": "約 €15~25 / 人"
+          },
+          "finderTags": [
+            "seafood",
+            "value",
+            "must",
+            "quick"
+          ],
+          "coordinates": {
+            "lat": 42.6507,
+            "lng": 18.0944
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Barba+Dubrovnik+Croatia"
+        },
+        {
+          "role": "backup",
+          "name": "Dubravka 1836",
+          "country": "Croatia",
+          "city": "Dubrovnik",
+          "address": "Dubravka 1836, Dubrovnik, Croatia",
+          "recommended": [
+            "Octopus Burger",
+            "Shrimp Burger"
+          ],
+          "portion": "1~2人份",
+          "budget": "€15~25 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "seafood",
+            "quick"
+          ],
+          "coordinates": {
+            "lat": 42.6507,
+            "lng": 18.0944
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Dubravka+1836+Dubrovnik+Croatia"
+        },
+        {
+          "role": "emergency",
+          "name": "Lady Pi-Pi",
+          "country": "Croatia",
+          "city": "Dubrovnik",
+          "address": "Lady Pi-Pi, Dubrovnik, Croatia",
+          "recommended": [
+            "Octopus Burger",
+            "Shrimp Burger"
+          ],
+          "portion": "1~2人份",
+          "budget": "€15~25 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "meat",
+            "local",
+            "value"
+          ],
+          "coordinates": {
+            "lat": 42.6507,
+            "lng": 18.0944
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Lady+Pi-Pi+Dubrovnik+Croatia"
+        }
+      ],
+      "coffee": {
+        "name": "Cogito Coffee",
+        "note": "",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Cogito+Coffee+Dubrovnik+Croatia"
+      },
+      "foodHighlight": {
+        "title": "古城高CP海鮮",
+        "rating": 5
+      }
+    },
+    "day10": {
+      "day": 10,
+      "city": "Split",
+      "cityZh": "史普利特",
+      "country": "Croatia",
+      "coordinates": {
+        "lat": 43.5081,
+        "lng": 16.4402
+      },
+      "highlight": {
+        "name": "Konoba Fetivi",
+        "category": "",
+        "budget": "€22~30",
+        "note": "整趟旅程最佳海鮮日。",
+        "priority": true,
+        "mustEat": [
+          "Grilled Sea Bass｜烤鱸魚",
+          "Grilled Sea Bream｜烤海鯛",
+          "Black Risotto｜墨魚燉飯"
+        ],
+        "recommended": [
+          {
+            "en": "Grilled Sea Bass",
+            "zh": "烤鱸魚",
+            "portion": "2~3人分食",
+            "price": "€28~35"
+          },
+          {
+            "en": "Grilled Sea Bream",
+            "zh": "烤海鯛",
+            "portion": "2~3人分食",
+            "price": "€28~35"
+          },
+          {
+            "en": "Black Risotto",
+            "zh": "墨魚燉飯",
+            "portion": "2人分食",
+            "price": "€18~25"
+          }
+        ],
+        "sharing": [
+          "Sea Bass ×1",
+          "Sea Bream ×1",
+          "Black Risotto ×1",
+          "Salad ×1"
+        ],
+        "perPerson": "約 €22~30 / 人",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Konoba+Fetivi+Split+Croatia"
+      },
+      "restaurants": [
+        {
+          "role": "main",
+          "name": "Konoba Fetivi",
+          "country": "Croatia",
+          "city": "Split",
+          "address": "Konoba Fetivi, Split, Croatia",
+          "recommended": [
+            "Grilled Sea Bass",
+            "Grilled Sea Bream",
+            "Black Risotto"
+          ],
+          "portion": "四人分食推薦",
+          "budget": "€22~30 / 人",
+          "fit": "高",
+          "orderGuide": {
+            "dishes": [
+              {
+                "en": "Grilled Sea Bass",
+                "zh": "烤鱸魚",
+                "portion": "2~3人分食",
+                "price": "€28~35"
+              },
+              {
+                "en": "Grilled Sea Bream",
+                "zh": "烤海鯛",
+                "portion": "2~3人分食",
+                "price": "€28~35"
+              },
+              {
+                "en": "Black Risotto",
+                "zh": "墨魚燉飯",
+                "portion": "2人分食",
+                "price": "€18~25"
+              }
+            ],
+            "sharing": [
+              "Sea Bass ×1",
+              "Sea Bream ×1",
+              "Black Risotto ×1",
+              "Salad ×1"
+            ],
+            "perPerson": "約 €22~30 / 人"
+          },
+          "finderTags": [
+            "seafood",
+            "local",
+            "must"
+          ],
+          "coordinates": {
+            "lat": 43.5081,
+            "lng": 16.4402
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Konoba+Fetivi+Split+Croatia"
+        },
+        {
+          "role": "backup",
+          "name": "DeListes Restaurant Split",
+          "country": "Croatia",
+          "city": "Split",
+          "address": "DeListes Restaurant Split, Split, Croatia",
+          "recommended": [
+            "Grilled Sea Bass",
+            "Grilled Sea Bream"
+          ],
+          "portion": "1~2人份",
+          "budget": "€22~30 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "seafood",
+            "pasta",
+            "value"
+          ],
+          "coordinates": {
+            "lat": 43.5081,
+            "lng": 16.4402
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=DeListes+Restaurant+Split+Split+Croatia"
+        },
+        {
+          "role": "emergency",
+          "name": "Villa Spiza",
+          "country": "Croatia",
+          "city": "Split",
+          "address": "Villa Spiza, Split, Croatia",
+          "recommended": [
+            "Grilled Sea Bass",
+            "Grilled Sea Bream"
+          ],
+          "portion": "1~2人份",
+          "budget": "€22~30 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "seafood",
+            "local",
+            "value"
+          ],
+          "coordinates": {
+            "lat": 43.5081,
+            "lng": 16.4402
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Villa+Spiza+Split+Croatia"
+        }
+      ],
+      "coffee": {
+        "name": "D16 Coffee",
+        "note": "",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=D16+Coffee+Split+Croatia"
+      },
+      "foodHighlight": {
+        "title": "整趟旅程最佳海鮮日",
+        "rating": 5
+      }
+    },
+    "day11": {
+      "day": 11,
+      "city": "Zagreb",
+      "cityZh": "札格列布",
+      "country": "Croatia",
+      "coordinates": {
+        "lat": 45.815,
+        "lng": 15.9819
+      },
+      "highlight": {
+        "name": "La Štruk",
+        "category": "",
+        "budget": "€15~25",
+        "note": "札格列布傳統點心與家常菜。",
+        "priority": false,
+        "mustEat": [
+          "Štrukli｜起司酥皮捲",
+          "Beef Goulash｜燉牛肉",
+          "Apple Strudel｜蘋果捲"
+        ],
+        "recommended": [
+          {
+            "en": "Štrukli",
+            "zh": "起司酥皮捲",
+            "portion": "2人分食",
+            "price": "€8~14"
+          },
+          {
+            "en": "Beef Goulash",
+            "zh": "燉牛肉",
+            "portion": "2人分食",
+            "price": "€12~20"
+          },
+          {
+            "en": "Apple Strudel",
+            "zh": "蘋果捲",
+            "portion": "2人分食",
+            "price": "€5~8"
+          }
+        ],
+        "sharing": [],
+        "perPerson": "約 €15~25 / 人",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=La+%C5%A0truk+Zagreb+Croatia"
+      },
+      "restaurants": [
+        {
+          "role": "main",
+          "name": "La Štruk",
+          "country": "Croatia",
+          "city": "Zagreb",
+          "address": "La Štruk, Zagreb, Croatia",
+          "recommended": [
+            "Štrukli",
+            "Beef Goulash",
+            "Apple Strudel"
+          ],
+          "portion": "四人分食推薦",
+          "budget": "€15~25 / 人",
+          "fit": "高",
+          "orderGuide": {
+            "dishes": [
+              {
+                "en": "Štrukli",
+                "zh": "起司酥皮捲",
+                "portion": "2人分食",
+                "price": "€8~14"
+              },
+              {
+                "en": "Beef Goulash",
+                "zh": "燉牛肉",
+                "portion": "2人分食",
+                "price": "€12~20"
+              },
+              {
+                "en": "Apple Strudel",
+                "zh": "蘋果捲",
+                "portion": "2人分食",
+                "price": "€5~8"
+              }
+            ],
+            "sharing": [],
+            "perPerson": "約 €15~25 / 人"
+          },
+          "finderTags": [
+            "pasta",
+            "dessert",
+            "local",
+            "must"
+          ],
+          "coordinates": {
+            "lat": 45.815,
+            "lng": 15.9819
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=La+%C5%A0truk+Zagreb+Croatia"
+        },
+        {
+          "role": "backup",
+          "name": "Vinodol",
+          "country": "Croatia",
+          "city": "Zagreb",
+          "address": "Vinodol, Zagreb, Croatia",
+          "recommended": [
+            "Štrukli",
+            "Beef Goulash"
+          ],
+          "portion": "1~2人份",
+          "budget": "€15~25 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "meat",
+            "local",
+            "must"
+          ],
+          "coordinates": {
+            "lat": 45.815,
+            "lng": 15.9819
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Vinodol+Zagreb+Croatia"
+        },
+        {
+          "role": "emergency",
+          "name": "Boban",
+          "country": "Croatia",
+          "city": "Zagreb",
+          "address": "Boban, Zagreb, Croatia",
+          "recommended": [
+            "Štrukli",
+            "Beef Goulash"
+          ],
+          "portion": "1~2人份",
+          "budget": "€15~25 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "pasta",
+            "value",
+            "quick"
+          ],
+          "coordinates": {
+            "lat": 45.815,
+            "lng": 15.9819
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Boban+Zagreb+Croatia"
+        }
+      ],
+      "coffee": {
+        "name": "Cogito Zagreb",
+        "note": "",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Cogito+Zagreb+Zagreb+Croatia"
+      },
+      "foodHighlight": {
+        "title": "克羅埃西亞傳統料理",
+        "rating": 3
+      }
+    },
+    "day12": {
+      "day": 12,
+      "city": "Noventa Outlet",
+      "cityZh": "諾文塔 Outlet",
+      "country": "Italy",
+      "coordinates": {
+        "lat": 45.667,
+        "lng": 12.533
+      },
+      "highlight": {
+        "name": "Farinella",
+        "category": "",
+        "budget": "€15~25",
+        "note": "Outlet 採買日，快速集合優先。",
+        "priority": false,
+        "mustEat": [
+          "Pizza Margherita｜瑪格麗特披薩",
+          "Lasagna｜千層麵",
+          "Tiramisu｜提拉米蘇"
+        ],
+        "recommended": [
+          {
+            "en": "Pizza Margherita",
+            "zh": "瑪格麗特披薩",
+            "portion": "2人分食",
+            "price": "€10~16"
+          },
+          {
+            "en": "Lasagna",
+            "zh": "千層麵",
+            "portion": "1~2人分食",
+            "price": "€12~18"
+          },
+          {
+            "en": "Tiramisu",
+            "zh": "提拉米蘇",
+            "portion": "2人分食",
+            "price": "€6~9"
+          }
+        ],
+        "sharing": [],
+        "perPerson": "約 €15~25 / 人",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Farinella+Noventa+Outlet+Italy"
+      },
+      "restaurants": [
+        {
+          "role": "main",
+          "name": "Farinella",
+          "country": "Italy",
+          "city": "Noventa Outlet",
+          "address": "Farinella, Noventa Outlet, Italy",
+          "recommended": [
+            "Pizza Margherita",
+            "Lasagna",
+            "Tiramisu"
+          ],
+          "portion": "四人分食推薦",
+          "budget": "€15~25 / 人",
+          "fit": "高",
+          "orderGuide": {
+            "dishes": [
+              {
+                "en": "Pizza Margherita",
+                "zh": "瑪格麗特披薩",
+                "portion": "2人分食",
+                "price": "€10~16"
+              },
+              {
+                "en": "Lasagna",
+                "zh": "千層麵",
+                "portion": "1~2人分食",
+                "price": "€12~18"
+              },
+              {
+                "en": "Tiramisu",
+                "zh": "提拉米蘇",
+                "portion": "2人分食",
+                "price": "€6~9"
+              }
+            ],
+            "sharing": [],
+            "perPerson": "約 €15~25 / 人"
+          },
+          "finderTags": [
+            "pasta",
+            "quick"
+          ],
+          "coordinates": {
+            "lat": 45.667,
+            "lng": 12.533
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Farinella+Noventa+Outlet+Italy"
+        },
+        {
+          "role": "backup",
+          "name": "Baccanale",
+          "country": "Italy",
+          "city": "Noventa Outlet",
+          "address": "Baccanale, Noventa Outlet, Italy",
+          "recommended": [
+            "Pizza Margherita",
+            "Lasagna"
+          ],
+          "portion": "1~2人份",
+          "budget": "€15~25 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "pasta",
+            "value"
+          ],
+          "coordinates": {
+            "lat": 45.667,
+            "lng": 12.533
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Baccanale+Noventa+Outlet+Italy"
+        },
+        {
+          "role": "emergency",
+          "name": "Starbucks Outlet",
+          "country": "Italy",
+          "city": "Noventa Outlet",
+          "address": "Starbucks Outlet, Noventa Outlet, Italy",
+          "recommended": [
+            "Pizza Margherita",
+            "Lasagna"
+          ],
+          "portion": "1~2人份",
+          "budget": "€15~25 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "cafe",
+            "dessert",
+            "quick"
+          ],
+          "coordinates": {
+            "lat": 45.667,
+            "lng": 12.533
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Starbucks+Outlet+Noventa+Outlet+Italy"
+        }
+      ],
+      "coffee": {
+        "name": "Starbucks Outlet",
+        "note": "",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Starbucks+Outlet+Noventa+Outlet+Italy"
+      },
+      "foodHighlight": {
+        "title": "Outlet 補充能量日",
+        "rating": 2
+      }
+    },
+    "day13": {
+      "day": 13,
+      "city": "Milan",
+      "cityZh": "米蘭",
+      "country": "Italy",
+      "coordinates": {
+        "lat": 45.4642,
+        "lng": 9.19
+      },
+      "highlight": {
+        "name": "Luini",
+        "category": "",
+        "budget": "€10~20",
+        "note": "米蘭快速小吃與披薩。",
+        "priority": false,
+        "mustEat": [
+          "Panzerotti｜炸餡餅",
+          "Margherita Pizza｜瑪格麗特披薩",
+          "Cannoli｜卡諾里捲"
+        ],
+        "recommended": [
+          {
+            "en": "Panzerotti",
+            "zh": "炸餡餅",
+            "portion": "1人份",
+            "price": "€3~6"
+          },
+          {
+            "en": "Margherita Pizza",
+            "zh": "瑪格麗特披薩",
+            "portion": "2人分食",
+            "price": "€8~14"
+          },
+          {
+            "en": "Cannoli",
+            "zh": "卡諾里捲",
+            "portion": "2人分食",
+            "price": "€4~8"
+          }
+        ],
+        "sharing": [],
+        "perPerson": "約 €10~20 / 人",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Luini+Milan+Italy"
+      },
+      "restaurants": [
+        {
+          "role": "main",
+          "name": "Luini",
+          "country": "Italy",
+          "city": "Milan",
+          "address": "Luini, Milan, Italy",
+          "recommended": [
+            "Panzerotti",
+            "Margherita Pizza",
+            "Cannoli"
+          ],
+          "portion": "四人分食推薦",
+          "budget": "€10~20 / 人",
+          "fit": "高",
+          "orderGuide": {
+            "dishes": [
+              {
+                "en": "Panzerotti",
+                "zh": "炸餡餅",
+                "portion": "1人份",
+                "price": "€3~6"
+              },
+              {
+                "en": "Margherita Pizza",
+                "zh": "瑪格麗特披薩",
+                "portion": "2人分食",
+                "price": "€8~14"
+              },
+              {
+                "en": "Cannoli",
+                "zh": "卡諾里捲",
+                "portion": "2人分食",
+                "price": "€4~8"
+              }
+            ],
+            "sharing": [],
+            "perPerson": "約 €10~20 / 人"
+          },
+          "finderTags": [
+            "value",
+            "quick",
+            "must"
+          ],
+          "coordinates": {
+            "lat": 45.4642,
+            "lng": 9.19
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Luini+Milan+Italy"
+        },
+        {
+          "role": "backup",
+          "name": "Piz",
+          "country": "Italy",
+          "city": "Milan",
+          "address": "Piz, Milan, Italy",
+          "recommended": [
+            "Panzerotti",
+            "Margherita Pizza"
+          ],
+          "portion": "1~2人份",
+          "budget": "€10~20 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "pasta",
+            "value",
+            "must"
+          ],
+          "coordinates": {
+            "lat": 45.4642,
+            "lng": 9.19
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Piz+Milan+Italy"
+        },
+        {
+          "role": "emergency",
+          "name": "Spontini",
+          "country": "Italy",
+          "city": "Milan",
+          "address": "Spontini, Milan, Italy",
+          "recommended": [
+            "Panzerotti",
+            "Margherita Pizza"
+          ],
+          "portion": "1~2人份",
+          "budget": "€10~20 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "value",
+            "quick"
+          ],
+          "coordinates": {
+            "lat": 45.4642,
+            "lng": 9.19
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Spontini+Milan+Italy"
+        }
+      ],
+      "coffee": {
+        "name": "Marchesi 1824",
+        "note": "",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Marchesi+1824+Milan+Italy"
+      },
+      "foodHighlight": {
+        "title": "米蘭代表小吃",
+        "rating": 5
+      }
+    },
+    "day14": {
+      "day": 14,
+      "city": "Malpensa Airport",
+      "cityZh": "馬爾彭薩機場",
+      "country": "Italy",
+      "coordinates": {
+        "lat": 45.6301,
+        "lng": 8.7255
+      },
+      "highlight": {
+        "name": "Lavazza",
+        "category": "",
+        "budget": "€10~15",
+        "note": "返程機場日，先求穩定與不誤機。",
+        "priority": false,
+        "mustEat": [
+          "Cappuccino｜卡布奇諾",
+          "Pizza Slice｜披薩片",
+          "Panini｜義式三明治"
+        ],
+        "recommended": [
+          {
+            "en": "Cappuccino",
+            "zh": "卡布奇諾",
+            "portion": "1人份",
+            "price": "€2~5"
+          },
+          {
+            "en": "Pizza Slice",
+            "zh": "披薩片",
+            "portion": "1人份",
+            "price": "€5~9"
+          },
+          {
+            "en": "Panini",
+            "zh": "義式三明治",
+            "portion": "1人份",
+            "price": "€5~9"
+          }
+        ],
+        "sharing": [],
+        "perPerson": "約 €10~15 / 人",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Lavazza+Malpensa+Airport+Italy"
+      },
+      "restaurants": [
+        {
+          "role": "main",
+          "name": "Lavazza",
+          "country": "Italy",
+          "city": "Malpensa Airport",
+          "address": "Lavazza, Malpensa Airport, Italy",
+          "recommended": [
+            "Cappuccino",
+            "Pizza Slice",
+            "Panini"
+          ],
+          "portion": "四人分食推薦",
+          "budget": "€10~15 / 人",
+          "fit": "高",
+          "orderGuide": {
+            "dishes": [
+              {
+                "en": "Cappuccino",
+                "zh": "卡布奇諾",
+                "portion": "1人份",
+                "price": "€2~5"
+              },
+              {
+                "en": "Pizza Slice",
+                "zh": "披薩片",
+                "portion": "1人份",
+                "price": "€5~9"
+              },
+              {
+                "en": "Panini",
+                "zh": "義式三明治",
+                "portion": "1人份",
+                "price": "€5~9"
+              }
+            ],
+            "sharing": [],
+            "perPerson": "約 €10~15 / 人"
+          },
+          "finderTags": [
+            "cafe",
+            "quick"
+          ],
+          "coordinates": {
+            "lat": 45.6301,
+            "lng": 8.7255
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Lavazza+Malpensa+Airport+Italy"
+        },
+        {
+          "role": "backup",
+          "name": "Rossopomodoro",
+          "country": "Italy",
+          "city": "Malpensa Airport",
+          "address": "Rossopomodoro, Malpensa Airport, Italy",
+          "recommended": [
+            "Cappuccino",
+            "Pizza Slice"
+          ],
+          "portion": "1~2人份",
+          "budget": "€10~15 / 人",
+          "fit": "高",
+          "orderGuide": null,
+          "finderTags": [
+            "pasta",
+            "quick"
+          ],
+          "coordinates": {
+            "lat": 45.6301,
+            "lng": 8.7255
+          },
+          "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Rossopomodoro+Malpensa+Airport+Italy"
+        }
+      ],
+      "coffee": {
+        "name": "Lavazza",
+        "note": "",
+        "navigationUrl": "https://www.google.com/maps/dir/?api=1&destination=Lavazza+Malpensa+Airport+Italy"
+      },
+      "foodHighlight": {
+        "title": "義大利最後一杯咖啡",
+        "rating": 2
+      }
+    }
+  }
+}
