@@ -1,0 +1,48 @@
+{
+  "version": "2026-11-15",
+  "route04": {
+    "name": "上生新所",
+    "address": "上海市長寧區延安西路1262號",
+    "metro": [
+      {
+        "station": "交通大學",
+        "lines": [
+          "10",
+          "11"
+        ]
+      },
+      {
+        "station": "延安西路",
+        "lines": [
+          "3",
+          "4"
+        ]
+      }
+    ],
+    "reject": [
+      "水城路站作為上生新所鄰近地鐵入口",
+      "由水城路站步行3分鐘抵達"
+    ],
+    "source": "https://www.shcn.gov.cn/col6991/20250303/1279330.html"
+  },
+  "route06": {
+    "name": "上海植物園",
+    "entrances": [
+      {
+        "name": "1號門",
+        "address": "上海市徐匯區龍吳路1111號"
+      },
+      {
+        "name": "4號門",
+        "address": "上海市徐匯區羅城路151號",
+        "metro": "3號線石龍路站",
+        "walking": "出站後過天橋，沿東泉路步行至羅城路"
+      }
+    ],
+    "reject": [
+      "石龍路站直接抵達南門",
+      "將1號門與4號門混為一個入口"
+    ],
+    "source": "https://www.shanghai.gov.cn/nw17239/20260427/a50209dcaec54c2d851abbfb2534e024.html"
+  }
+}
