@@ -79,8 +79,8 @@
         {
           "path": "assets/routes/2026-11-20/option-06-botanical-garden-entrances.svg",
           "exists": true,
-          "bytes": 3469,
-          "sha256": "7eba1d5401f5b68d8bd12c456cd20975aa983a66fc5b0ba82d83157e05d616a5"
+          "bytes": 3526,
+          "sha256": "e81811d4d71ac438eb4e27617dd2f606daaeb3a710fda222005e532572cbd704"
         }
       ],
       "status": "有示意 SVG，未通過實景與完整手繪驗收",
@@ -129,8 +129,8 @@
         {
           "path": "assets/routes/2026-11-23/NJ03_20261123_yihe_qingliang_v01.svg",
           "exists": true,
-          "bytes": 3125,
-          "sha256": "efb2f7411fcbd4fe0ae79554785739ccdb0eec3ac9473769188667a21d7c0935"
+          "bytes": 3179,
+          "sha256": "9d11aaa0418b480a438a42a65a79ffec23589948161d983f9c887c9f33590083"
         }
       ],
       "status": "有示意 SVG，未通過實景與完整手繪驗收",
@@ -161,8 +161,8 @@
         {
           "path": "assets/routes/2026-11-25/NJ05_20261125_zhongshan_music_linggu_v01.svg",
           "exists": true,
-          "bytes": 3872,
-          "sha256": "b46da5c96cb383ce8b424905be76c715264abeaf6037c022485a67b7f2781af6"
+          "bytes": 3932,
+          "sha256": "52189e268343ddcdb7f1d64187af8c3f1f2f568f2f19506207c2a618e6a438d2"
         }
       ],
       "status": "有示意 SVG，未通過實景與完整手繪驗收",
@@ -177,8 +177,8 @@
         {
           "path": "assets/routes/2026-11-26/NJ06_20261126_qixiashan_official_A_v01.svg",
           "exists": true,
-          "bytes": 5056,
-          "sha256": "ea23b1c6797eeed20ff7d2ce35c0eef45fd3dab216d1a9accf2103a748b32952"
+          "bytes": 5098,
+          "sha256": "4c020c726941ed6dc0e0844e096ce0af0e0578d17595cb55b9d1899f03c625e7"
         }
       ],
       "status": "有示意 SVG，未通過實景與完整手繪驗收",
@@ -193,8 +193,8 @@
         {
           "path": "assets/routes/2026-11-27/NJ07_20261127_museum_presidential_qinhuai_v01.svg",
           "exists": true,
-          "bytes": 3308,
-          "sha256": "1d76f03867f6879ca83c9369d74eb3a04ce6761ee0c5b013014b154887b3fd6e"
+          "bytes": 3304,
+          "sha256": "0626fa8a3034ec8a395f4eaa6277f390c81f30cca33f65bb78f62405eb6061b0"
         }
       ],
       "status": "有示意 SVG，未通過實景與完整手繪驗收",
@@ -230,5 +230,3 @@
     }
   ]
 }
-
-[executed on device: iMac.local (54c486af-ddc6-40a8-bc75-9a00c8d92c8d)]
