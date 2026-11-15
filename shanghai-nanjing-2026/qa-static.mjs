@@ -13,8 +13,10 @@ for(const page of pages){
  files.set(page,readFileSync(p,'utf8'));
 }
 for(const [page,html] of files){
+ // Ignore JS string literals containing generated HTML: those are not DOM links.
+ const staticHtml=html.replace(/<script\b[^>]*>[\s\S]*?<\/script>/gi,'');
  const ids=new Set([...html.matchAll(/\bid=["']([^"']+)["']/g)].map(m=>m[1]));
- for(const m of html.matchAll(/\b(?:href|src)=["']([^"']+)["']/g)){
+ for(const m of staticHtml.matchAll(/\b(?:href|src)=["']([^"']+)["']/g)){
   const url=m[1];if(!url||/^(?:https?:|data:|mailto:|tel:|javascript:)/i.test(url))continue;
   const [target,fragment]=url.split('#');const name=target||page;
   if(name.startsWith('/'))continue;
