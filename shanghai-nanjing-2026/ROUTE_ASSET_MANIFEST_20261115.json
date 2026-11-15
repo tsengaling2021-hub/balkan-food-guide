@@ -1,0 +1,234 @@
+{
+  "generated": "2026-11-15",
+  "scope": "MD 基準：上海 7 選項、南京 8 日、交通 3 張",
+  "note": "這是實際檔案存在性檢查；未校核的 SVG 或 Library 合集不得算完成。SH05 檔名含 yuyuan 但其編號屬愚園路，須確認圖面後才採用。",
+  "routes": [
+    {
+      "id": "TR01",
+      "date": "2026-11-19",
+      "title": "上海抵達／浦東入城",
+      "assets": [],
+      "status": "正式獨立路線圖缺失",
+      "route_verified": false,
+      "mobile_verified": false
+    },
+    {
+      "id": "SH01",
+      "date": "2026-11-20",
+      "title": "武康路／安福路",
+      "assets": [
+        {
+          "path": "assets/routes/2026-11-20/SH01_wukang_approved_original.jpg",
+          "exists": true,
+          "bytes": 612371,
+          "sha256": "dbc26ed16dbfea2260a6e3d8d3633428465802a10564487f0d2e943b71fefe01"
+        }
+      ],
+      "status": "核准原圖已入庫，仍需路線與手機驗收",
+      "route_verified": false,
+      "mobile_verified": false
+    },
+    {
+      "id": "SH02",
+      "date": "2026-11-20",
+      "title": "思南公館",
+      "assets": [],
+      "status": "正式獨立路線圖缺失",
+      "route_verified": false,
+      "mobile_verified": false
+    },
+    {
+      "id": "SH03",
+      "date": "2026-11-20",
+      "title": "新天地北里",
+      "assets": [],
+      "status": "正式獨立路線圖缺失",
+      "route_verified": false,
+      "mobile_verified": false
+    },
+    {
+      "id": "SH04",
+      "date": "2026-11-20",
+      "title": "上生新所",
+      "assets": [],
+      "status": "正式獨立路線圖缺失",
+      "route_verified": false,
+      "mobile_verified": false
+    },
+    {
+      "id": "SH05",
+      "date": "2026-11-20",
+      "title": "愚園路／靜安寺",
+      "assets": [
+        {
+          "path": "assets/routes/2026-11-20/SH05_yuyuan_jingan_v03.svg",
+          "exists": true,
+          "bytes": 4642,
+          "sha256": "240cf989c182dea34df73ca03aa71631723c5ebab0e7a5d7c2913967a39e8e29"
+        }
+      ],
+      "status": "有示意 SVG，未通過實景與完整手繪驗收",
+      "route_verified": false,
+      "mobile_verified": false
+    },
+    {
+      "id": "SH06",
+      "date": "2026-11-20",
+      "title": "上海植物園",
+      "assets": [
+        {
+          "path": "assets/routes/2026-11-20/option-06-botanical-garden-entrances.svg",
+          "exists": true,
+          "bytes": 3469,
+          "sha256": "7eba1d5401f5b68d8bd12c456cd20975aa983a66fc5b0ba82d83157e05d616a5"
+        }
+      ],
+      "status": "有示意 SVG，未通過實景與完整手繪驗收",
+      "route_verified": false,
+      "mobile_verified": false
+    },
+    {
+      "id": "SH07",
+      "date": "2026-11-20",
+      "title": "豫園／九曲橋／城隍廟",
+      "assets": [],
+      "status": "正式獨立路線圖缺失",
+      "route_verified": false,
+      "mobile_verified": false
+    },
+    {
+      "id": "NJ01",
+      "date": "2026-11-21",
+      "title": "朝天宮／老門東",
+      "assets": [],
+      "status": "正式獨立路線圖缺失",
+      "route_verified": false,
+      "mobile_verified": false
+    },
+    {
+      "id": "NJ02",
+      "date": "2026-11-22",
+      "title": "玄武湖／雞鳴寺／明城牆",
+      "assets": [
+        {
+          "path": "assets/NJ02-01_20261122_jiming_jiefang_xuanwumen_geo.svg",
+          "exists": true,
+          "bytes": 3349,
+          "sha256": "6efac755d24bd90714589317ca7ab0ddb935f332d19bec34bfda5ac07fc9d0b0"
+        }
+      ],
+      "status": "有示意 SVG，未通過實景與完整手繪驗收",
+      "route_verified": false,
+      "mobile_verified": false
+    },
+    {
+      "id": "NJ03",
+      "date": "2026-11-23",
+      "title": "頤和路／清涼山",
+      "assets": [
+        {
+          "path": "assets/routes/2026-11-23/NJ03_20261123_yihe_qingliang_v01.svg",
+          "exists": true,
+          "bytes": 3125,
+          "sha256": "efb2f7411fcbd4fe0ae79554785739ccdb0eec3ac9473769188667a21d7c0935"
+        }
+      ],
+      "status": "有示意 SVG，未通過實景與完整手繪驗收",
+      "route_verified": false,
+      "mobile_verified": false
+    },
+    {
+      "id": "NJ04",
+      "date": "2026-11-24",
+      "title": "陵園路／美齡宮／明孝陵",
+      "assets": [
+        {
+          "path": "assets/routes/2026-11-24/NJ04_20261124_lingyuan_meiling_mingxiaoling_v02.svg",
+          "exists": true,
+          "bytes": 3773,
+          "sha256": "4916d5ac168140d5d4510e15cf2853549c736cc2412fc9a580f6f85cf616b120"
+        }
+      ],
+      "status": "有示意 SVG，未通過實景與完整手繪驗收",
+      "route_verified": false,
+      "mobile_verified": false
+    },
+    {
+      "id": "NJ05",
+      "date": "2026-11-25",
+      "title": "中山陵／音樂台／靈谷寺",
+      "assets": [
+        {
+          "path": "assets/routes/2026-11-25/NJ05_20261125_zhongshan_music_linggu_v01.svg",
+          "exists": true,
+          "bytes": 3872,
+          "sha256": "b46da5c96cb383ce8b424905be76c715264abeaf6037c022485a67b7f2781af6"
+        }
+      ],
+      "status": "有示意 SVG，未通過實景與完整手繪驗收",
+      "route_verified": false,
+      "mobile_verified": false
+    },
+    {
+      "id": "NJ06",
+      "date": "2026-11-26",
+      "title": "棲霞山",
+      "assets": [
+        {
+          "path": "assets/routes/2026-11-26/NJ06_20261126_qixiashan_official_A_v01.svg",
+          "exists": true,
+          "bytes": 5056,
+          "sha256": "ea23b1c6797eeed20ff7d2ce35c0eef45fd3dab216d1a9accf2103a748b32952"
+        }
+      ],
+      "status": "有示意 SVG，未通過實景與完整手繪驗收",
+      "route_verified": false,
+      "mobile_verified": false
+    },
+    {
+      "id": "NJ07",
+      "date": "2026-11-27",
+      "title": "南京博物院／總統府／秦淮",
+      "assets": [
+        {
+          "path": "assets/routes/2026-11-27/NJ07_20261127_museum_presidential_qinhuai_v01.svg",
+          "exists": true,
+          "bytes": 3308,
+          "sha256": "1d76f03867f6879ca83c9369d74eb3a04ce6761ee0c5b013014b154887b3fd6e"
+        }
+      ],
+      "status": "有示意 SVG，未通過實景與完整手繪驗收",
+      "route_verified": false,
+      "mobile_verified": false
+    },
+    {
+      "id": "NJ08",
+      "date": "2026-11-28",
+      "title": "南京彈性行程",
+      "assets": [],
+      "status": "正式獨立路線圖缺失",
+      "route_verified": false,
+      "mobile_verified": false
+    },
+    {
+      "id": "TR02",
+      "date": "2026-11-29",
+      "title": "南京返回上海龍陽路",
+      "assets": [],
+      "status": "正式獨立路線圖缺失",
+      "route_verified": false,
+      "mobile_verified": false
+    },
+    {
+      "id": "TR03",
+      "date": "2026-11-30",
+      "title": "龍陽路至浦東機場",
+      "assets": [],
+      "status": "正式獨立路線圖缺失",
+      "route_verified": false,
+      "mobile_verified": false
+    }
+  ]
+}
+
+[executed on device: iMac.local (54c486af-ddc6-40a8-bc75-9a00c8d92c8d)]
