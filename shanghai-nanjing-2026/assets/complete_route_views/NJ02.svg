@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="880" height="794" viewBox="0 0 880 794" role="img" aria-label="11月22日 玄武湖・雞鳴寺・明城牆 完整站序示意">
+<defs><linearGradient id="paper" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#fcf5e7"/><stop offset="1" stop-color="#eef1e2"/></linearGradient><linearGradient id="leaf" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#d5a85e"/><stop offset="1" stop-color="#a9543c"/></linearGradient></defs>
+<rect width="880" height="794" rx="28" fill="url(#paper)"/>
+<path d="M0 0 Q170 80 240 0 M880 160 Q740 80 650 0" stroke="#a5bb9f" stroke-width="40" opacity=".12" fill="none"/>
+<g opacity=".28" fill="url(#leaf)"><ellipse cx="760" cy="87" rx="32" ry="14" transform="rotate(-30 760 87)"/><ellipse cx="797" cy="120" rx="29" ry="12" transform="rotate(32 797 120)"/><ellipse cx="704" cy="77" rx="26" ry="12" transform="rotate(12 704 77)"/></g>
+<text x="50" y="67" font-size="30" fill="#9b573b" font-family="PingFang TC,Noto Sans TC,sans-serif" font-weight="800">11/22  南京賞秋・完整路線</text>
+<text x="50" y="122" font-size="39" fill="#285648" font-family="PingFang TC,Noto Sans TC,sans-serif" font-weight="800">玄武湖・雞鳴寺・明城牆</text>
+<text x="50" y="169" font-size="23" fill="#64786b" font-family="PingFang TC,Noto Sans TC,sans-serif">清晰站序示意圖｜依原行程整理・不表示精確道路比例</text>
+<path d="M94 304 V366" stroke="#ad7853" stroke-width="7" stroke-dasharray="11 10" stroke-linecap="round"/>
+<rect x="44" y="212" width="792" height="116" rx="24" fill="#fffdfa" stroke="#e6d8bb" stroke-width="2"/>
+<circle cx="94" cy="269" r="34" fill="#a75b45"/>
+<text x="94" y="280" font-size="29" text-anchor="middle" fill="#fff" font-weight="800" font-family="PingFang TC,Noto Sans TC,sans-serif">1</text>
+<text x="155" y="264" font-size="34" fill="#294f41" font-weight="800" font-family="PingFang TC,Noto Sans TC,sans-serif">玄武湖梁洲秋景</text>
+<text x="158" y="305" font-size="24" fill="#826a4e" font-family="PingFang TC,Noto Sans TC,sans-serif">預估抵達 09:25　・　依現場交通及開放情況調整</text>
+<path d="M94 452 V514" stroke="#ad7853" stroke-width="7" stroke-dasharray="11 10" stroke-linecap="round"/>
+<rect x="44" y="360" width="792" height="116" rx="24" fill="#fffdfa" stroke="#e6d8bb" stroke-width="2"/>
+<circle cx="94" cy="417" r="34" fill="#a75b45"/>
+<text x="94" y="428" font-size="29" text-anchor="middle" fill="#fff" font-weight="800" font-family="PingFang TC,Noto Sans TC,sans-serif">2</text>
+<text x="155" y="412" font-size="34" fill="#294f41" font-weight="800" font-family="PingFang TC,Noto Sans TC,sans-serif">玄武湖周邊午餐</text>
+<text x="158" y="453" font-size="24" fill="#826a4e" font-family="PingFang TC,Noto Sans TC,sans-serif">預估抵達 12:15　・　依現場交通及開放情況調整</text>
+<rect x="44" y="508" width="792" height="116" rx="24" fill="#fffdfa" stroke="#e6d8bb" stroke-width="2"/>
+<circle cx="94" cy="565" r="34" fill="#a75b45"/>
+<text x="94" y="576" font-size="29" text-anchor="middle" fill="#fff" font-weight="800" font-family="PingFang TC,Noto Sans TC,sans-serif">3</text>
+<text x="155" y="560" font-size="34" fill="#294f41" font-weight="800" font-family="PingFang TC,Noto Sans TC,sans-serif">雞鳴寺塔影</text>
+<text x="158" y="601" font-size="24" fill="#826a4e" font-family="PingFang TC,Noto Sans TC,sans-serif">預估抵達 13:50　・　依現場交通及開放情況調整</text>
+<text x="50" y="736" font-size="22" fill="#795d49" font-family="PingFang TC,Noto Sans TC,sans-serif">水彩舊圖為不完整截圖，已改列參考；此圖僅保證文字完整可讀。</text>
+</svg>
