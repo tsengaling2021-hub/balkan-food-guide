@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="1585" viewBox="0 0 1080 1585">
+<defs><linearGradient id="sky" x2="0" y2="1"><stop stop-color="#e3eff0"/><stop offset="1" stop-color="#fff0cf"/></linearGradient><linearGradient id="paper" x2="0" y2="1"><stop stop-color="#fef9ee"/><stop offset="1" stop-color="#f3efdd"/></linearGradient><filter id="wash"><feTurbulence type="fractalNoise" baseFrequency=".012" numOctaves="2" seed="7" result="noise"/><feDisplacementMap in="SourceGraphic" in2="noise" scale="4"/></filter></defs>
+<rect width="1080" height="1585" fill="url(#paper)"/>
+<rect x="0" width="1080" height="570" fill="url(#sky)"/>
+<path d="M0 405 Q150 300 300 360 Q480 285 670 370 Q870 275 1080 365 L1080 570 L0 570" fill="#a8bfa7" opacity=".7" filter="url(#wash)"/>
+<path d="M0 420 Q300 360 540 415 T1080 400 L1080 570 L0 570 Z" fill="#a5d5cc" opacity=".82"/><path d="M0 465 Q300 445 620 469 T1080 459" stroke="#f9efbd" stroke-width="13" fill="none"/><path d="M675 460 L675 286 L770 286 L770 460 M688 287 L725 234 L761 287" fill="#d9a664" stroke="#78583b" stroke-width="7"/>
+<g filter="url(#wash)">
+<path d="M55 580 Q30 418 73 205" stroke="#786b4b" stroke-width="8" fill="none" opacity=".75"/>
+<ellipse cx="25.0" cy="205" rx="42" ry="25" transform="rotate(-40 25.0 205)" fill="#cf8a44" opacity=".75"/>
+<ellipse cx="45.0" cy="225" rx="50" ry="28" transform="rotate(-15 45.0 225)" fill="#cf8a44" opacity=".75"/>
+<ellipse cx="65.0" cy="205" rx="42" ry="31" transform="rotate(10 65.0 205)" fill="#cf8a44" opacity=".75"/>
+<ellipse cx="85.0" cy="225" rx="50" ry="34" transform="rotate(35 85.0 225)" fill="#cf8a44" opacity=".75"/>
+<path d="M131 580 Q106 418 149 240" stroke="#786b4b" stroke-width="10" fill="none" opacity=".75"/>
+<ellipse cx="101.0" cy="240" rx="42" ry="25" transform="rotate(-40 101.0 240)" fill="#e1b35b" opacity=".75"/>
+<ellipse cx="121.0" cy="260" rx="50" ry="28" transform="rotate(-15 121.0 260)" fill="#e1b35b" opacity=".75"/>
+<ellipse cx="141.0" cy="240" rx="42" ry="31" transform="rotate(10 141.0 240)" fill="#e1b35b" opacity=".75"/>
+<ellipse cx="161.0" cy="260" rx="50" ry="34" transform="rotate(35 161.0 260)" fill="#e1b35b" opacity=".75"/>
+<path d="M207 580 Q182 418 225 275" stroke="#786b4b" stroke-width="12" fill="none" opacity=".75"/>
+<ellipse cx="177.0" cy="275" rx="42" ry="25" transform="rotate(-40 177.0 275)" fill="#bf6550" opacity=".75"/>
+<ellipse cx="197.0" cy="295" rx="50" ry="28" transform="rotate(-15 197.0 295)" fill="#bf6550" opacity=".75"/>
+<ellipse cx="217.0" cy="275" rx="42" ry="31" transform="rotate(10 217.0 275)" fill="#bf6550" opacity=".75"/>
+<ellipse cx="237.0" cy="295" rx="50" ry="34" transform="rotate(35 237.0 295)" fill="#bf6550" opacity=".75"/>
+<path d="M283 580 Q258 418 301 205" stroke="#786b4b" stroke-width="8" fill="none" opacity=".75"/>
+<ellipse cx="253.0" cy="205" rx="42" ry="25" transform="rotate(-40 253.0 205)" fill="#b1ad62" opacity=".75"/>
+<ellipse cx="273.0" cy="225" rx="50" ry="28" transform="rotate(-15 273.0 225)" fill="#b1ad62" opacity=".75"/>
+<ellipse cx="293.0" cy="205" rx="42" ry="31" transform="rotate(10 293.0 205)" fill="#b1ad62" opacity=".75"/>
+<ellipse cx="313.0" cy="225" rx="50" ry="34" transform="rotate(35 313.0 225)" fill="#b1ad62" opacity=".75"/>
+<path d="M359 580 Q334 418 377 240" stroke="#786b4b" stroke-width="10" fill="none" opacity=".75"/>
+<ellipse cx="329.0" cy="240" rx="42" ry="25" transform="rotate(-40 329.0 240)" fill="#c99b47" opacity=".75"/>
+<ellipse cx="349.0" cy="260" rx="50" ry="28" transform="rotate(-15 349.0 260)" fill="#c99b47" opacity=".75"/>
+<ellipse cx="369.0" cy="240" rx="42" ry="31" transform="rotate(10 369.0 240)" fill="#c99b47" opacity=".75"/>
+<ellipse cx="389.0" cy="260" rx="50" ry="34" transform="rotate(35 389.0 260)" fill="#c99b47" opacity=".75"/>
+<path d="M435 580 Q410 418 453 275" stroke="#786b4b" stroke-width="12" fill="none" opacity=".75"/>
+<ellipse cx="405.0" cy="275" rx="42" ry="25" transform="rotate(-40 405.0 275)" fill="#cf8a44" opacity=".75"/>
+<ellipse cx="425.0" cy="295" rx="50" ry="28" transform="rotate(-15 425.0 295)" fill="#cf8a44" opacity=".75"/>
+<ellipse cx="445.0" cy="275" rx="42" ry="31" transform="rotate(10 445.0 275)" fill="#cf8a44" opacity=".75"/>
+<ellipse cx="465.0" cy="295" rx="50" ry="34" transform="rotate(35 465.0 295)" fill="#cf8a44" opacity=".75"/>
+<path d="M511 580 Q486 418 529 205" stroke="#786b4b" stroke-width="8" fill="none" opacity=".75"/>
+<ellipse cx="481.0" cy="205" rx="42" ry="25" transform="rotate(-40 481.0 205)" fill="#e1b35b" opacity=".75"/>
+<ellipse cx="501.0" cy="225" rx="50" ry="28" transform="rotate(-15 501.0 225)" fill="#e1b35b" opacity=".75"/>
+<ellipse cx="521.0" cy="205" rx="42" ry="31" transform="rotate(10 521.0 205)" fill="#e1b35b" opacity=".75"/>
+<ellipse cx="541.0" cy="225" rx="50" ry="34" transform="rotate(35 541.0 225)" fill="#e1b35b" opacity=".75"/>
+<path d="M587 580 Q562 418 605 240" stroke="#786b4b" stroke-width="10" fill="none" opacity=".75"/>
+<ellipse cx="557.0" cy="240" rx="42" ry="25" transform="rotate(-40 557.0 240)" fill="#bf6550" opacity=".75"/>
+<ellipse cx="577.0" cy="260" rx="50" ry="28" transform="rotate(-15 577.0 260)" fill="#bf6550" opacity=".75"/>
+<ellipse cx="597.0" cy="240" rx="42" ry="31" transform="rotate(10 597.0 240)" fill="#bf6550" opacity=".75"/>
+<ellipse cx="617.0" cy="260" rx="50" ry="34" transform="rotate(35 617.0 260)" fill="#bf6550" opacity=".75"/>
+<path d="M663 580 Q638 418 681 275" stroke="#786b4b" stroke-width="12" fill="none" opacity=".75"/>
+<ellipse cx="633.0" cy="275" rx="42" ry="25" transform="rotate(-40 633.0 275)" fill="#b1ad62" opacity=".75"/>
+<ellipse cx="653.0" cy="295" rx="50" ry="28" transform="rotate(-15 653.0 295)" fill="#b1ad62" opacity=".75"/>
+<ellipse cx="673.0" cy="275" rx="42" ry="31" transform="rotate(10 673.0 275)" fill="#b1ad62" opacity=".75"/>
+<ellipse cx="693.0" cy="295" rx="50" ry="34" transform="rotate(35 693.0 295)" fill="#b1ad62" opacity=".75"/>
+<path d="M739 580 Q714 418 757 205" stroke="#786b4b" stroke-width="8" fill="none" opacity=".75"/>
+<ellipse cx="709.0" cy="205" rx="42" ry="25" transform="rotate(-40 709.0 205)" fill="#c99b47" opacity=".75"/>
+<ellipse cx="729.0" cy="225" rx="50" ry="28" transform="rotate(-15 729.0 225)" fill="#c99b47" opacity=".75"/>
+<ellipse cx="749.0" cy="205" rx="42" ry="31" transform="rotate(10 749.0 205)" fill="#c99b47" opacity=".75"/>
+<ellipse cx="769.0" cy="225" rx="50" ry="34" transform="rotate(35 769.0 225)" fill="#c99b47" opacity=".75"/>
+<path d="M815 580 Q790 418 833 240" stroke="#786b4b" stroke-width="10" fill="none" opacity=".75"/>
+<ellipse cx="785.0" cy="240" rx="42" ry="25" transform="rotate(-40 785.0 240)" fill="#cf8a44" opacity=".75"/>
+<ellipse cx="805.0" cy="260" rx="50" ry="28" transform="rotate(-15 805.0 260)" fill="#cf8a44" opacity=".75"/>
+<ellipse cx="825.0" cy="240" rx="42" ry="31" transform="rotate(10 825.0 240)" fill="#cf8a44" opacity=".75"/>
+<ellipse cx="845.0" cy="260" rx="50" ry="34" transform="rotate(35 845.0 260)" fill="#cf8a44" opacity=".75"/>
+<path d="M891 580 Q866 418 909 275" stroke="#786b4b" stroke-width="12" fill="none" opacity=".75"/>
+<ellipse cx="861.0" cy="275" rx="42" ry="25" transform="rotate(-40 861.0 275)" fill="#e1b35b" opacity=".75"/>
+<ellipse cx="881.0" cy="295" rx="50" ry="28" transform="rotate(-15 881.0 295)" fill="#e1b35b" opacity=".75"/>
+<ellipse cx="901.0" cy="275" rx="42" ry="31" transform="rotate(10 901.0 275)" fill="#e1b35b" opacity=".75"/>
+<ellipse cx="921.0" cy="295" rx="50" ry="34" transform="rotate(35 921.0 295)" fill="#e1b35b" opacity=".75"/>
+<path d="M967 580 Q942 418 985 205" stroke="#786b4b" stroke-width="8" fill="none" opacity=".75"/>
+<ellipse cx="937.0" cy="205" rx="42" ry="25" transform="rotate(-40 937.0 205)" fill="#bf6550" opacity=".75"/>
+<ellipse cx="957.0" cy="225" rx="50" ry="28" transform="rotate(-15 957.0 225)" fill="#bf6550" opacity=".75"/>
+<ellipse cx="977.0" cy="205" rx="42" ry="31" transform="rotate(10 977.0 205)" fill="#bf6550" opacity=".75"/>
+<ellipse cx="997.0" cy="225" rx="50" ry="34" transform="rotate(35 997.0 225)" fill="#bf6550" opacity=".75"/>
+<path d="M1043 580 Q1018 418 1061 240" stroke="#786b4b" stroke-width="10" fill="none" opacity=".75"/>
+<ellipse cx="1013.0" cy="240" rx="42" ry="25" transform="rotate(-40 1013.0 240)" fill="#b1ad62" opacity=".75"/>
+<ellipse cx="1033.0" cy="260" rx="50" ry="28" transform="rotate(-15 1033.0 260)" fill="#b1ad62" opacity=".75"/>
+<ellipse cx="1053.0" cy="240" rx="42" ry="31" transform="rotate(10 1053.0 240)" fill="#b1ad62" opacity=".75"/>
+<ellipse cx="1073.0" cy="260" rx="50" ry="34" transform="rotate(35 1073.0 260)" fill="#b1ad62" opacity=".75"/>
+</g>
+<path d="M0 569 H1080" stroke="#f6f0dd" stroke-width="17"/>
+<rect x="42" y="44" width="995" height="148" rx="23" fill="#fffaf0" stroke="#e1d5bd" stroke-width="3"/>
+<text x="77" y="99" font-size="34" font-weight="800" fill="#a35e3c" font-family="PingFang TC,Noto Sans CJK TC,sans-serif">🍁 11/22  南京賞秋・彩繪路線</text>
+<text x="77" y="158" font-size="51" font-weight="800" fill="#245647" font-family="PingFang TC,Noto Sans CJK TC,sans-serif">玄武湖・雞鳴寺・明城牆</text>
+<text x="58" y="649" font-size="36" fill="#315a4c" font-family="PingFang TC,Noto Sans CJK TC,sans-serif" font-weight="800">秋湖、寺塔與城市風景</text>
+<text x="58" y="698" font-size="25" fill="#766f5b" font-family="PingFang TC,Noto Sans CJK TC,sans-serif">景點依當天原行程排序｜下方為完整站序，不代表實際道路座標</text>
+<rect x="53" y="735" width="974" height="111" rx="21" fill="#fffcf6" stroke="#dfd6c4" stroke-width="2"/>
+<circle cx="110" cy="790" r="35" fill="#a94f3b"/>
+<text x="110" y="801" text-anchor="middle" fill="#fff" font-size="32" font-weight="800" font-family="Noto Sans CJK TC,sans-serif">1</text>
+<text x="178" y="788" font-size="38" fill="#275445" font-weight="800" font-family="Noto Sans CJK TC,sans-serif">玄武湖梁洲秋景</text>
+<text x="178" y="824" font-size="25" fill="#866f58" font-family="Noto Sans CJK TC,sans-serif">預估抵達 09:25　·　請保留慢走與轉乘緩衝</text>
+<path d="M110 826 V885" stroke="#b27555" stroke-width="6" stroke-linecap="round" stroke-dasharray="9 10"/>
+<rect x="53" y="869" width="974" height="111" rx="21" fill="#fffcf6" stroke="#dfd6c4" stroke-width="2"/>
+<circle cx="110" cy="924" r="35" fill="#a94f3b"/>
+<text x="110" y="935" text-anchor="middle" fill="#fff" font-size="32" font-weight="800" font-family="Noto Sans CJK TC,sans-serif">2</text>
+<text x="178" y="922" font-size="38" fill="#275445" font-weight="800" font-family="Noto Sans CJK TC,sans-serif">玄武湖周邊午餐</text>
+<text x="178" y="958" font-size="25" fill="#866f58" font-family="Noto Sans CJK TC,sans-serif">預估抵達 12:15　·　請保留慢走與轉乘緩衝</text>
+<path d="M110 960 V1019" stroke="#b27555" stroke-width="6" stroke-linecap="round" stroke-dasharray="9 10"/>
+<rect x="53" y="1003" width="974" height="111" rx="21" fill="#fffcf6" stroke="#dfd6c4" stroke-width="2"/>
+<circle cx="110" cy="1058" r="35" fill="#a94f3b"/>
+<text x="110" y="1069" text-anchor="middle" fill="#fff" font-size="32" font-weight="800" font-family="Noto Sans CJK TC,sans-serif">3</text>
+<text x="178" y="1056" font-size="38" fill="#275445" font-weight="800" font-family="Noto Sans CJK TC,sans-serif">雞鳴寺塔影</text>
+<text x="178" y="1092" font-size="25" fill="#866f58" font-family="Noto Sans CJK TC,sans-serif">預估抵達 13:50　·　請保留慢走與轉乘緩衝</text>
+<text x="58" y="1480" font-size="25" fill="#756f5f" font-family="Noto Sans CJK TC,sans-serif">水彩為景區場景意象；實際出入口、道路與距離請依導航核實。</text>
+<text x="58" y="1522" font-size="23" fill="#756f5f" font-family="Noto Sans CJK TC,sans-serif">圖片無裁切、所有站點完整可讀｜2026 上海南京 Pocket Guide</text>
+</svg>
