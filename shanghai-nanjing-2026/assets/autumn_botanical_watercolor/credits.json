@@ -1,0 +1,162 @@
+[
+  {
+    "name": "銀杏",
+    "slug": "ginkgo",
+    "role": "leaf",
+    "source": "File:GinkgoLeaves.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:GinkgoLeaves.jpg",
+    "file": "ginkgo-leaf.webp"
+  },
+  {
+    "name": "銀杏",
+    "slug": "ginkgo",
+    "role": "tree",
+    "source": "File:2014-11-02 12 06 44 Ginkgo during autumn at the Ewing Presbyterian Church Cemetery in Ewing, New Jersey.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:2014-11-02_12_06_44_Ginkgo_during_autumn_at_the_Ewing_Presbyterian_Church_Cemetery_in_Ewing%2C_New_Jersey.jpg",
+    "file": "ginkgo-tree.webp"
+  },
+  {
+    "name": "懸鈴木",
+    "slug": "plane",
+    "role": "leaf",
+    "source": "File:Fallen leaf of Platanus x hispanica (1).jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Fallen_leaf_of_Platanus_x_hispanica_(1).jpg",
+    "file": "plane-leaf.webp"
+  },
+  {
+    "name": "懸鈴木",
+    "slug": "plane",
+    "role": "tree",
+    "source": "File:Berkeley Square - geograph.org.uk - 911963.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Berkeley_Square_-_geograph.org.uk_-_911963.jpg",
+    "file": "plane-tree.webp"
+  },
+  {
+    "name": "楓香",
+    "slug": "sweetgum",
+    "role": "leaf",
+    "source": "File:Liquidambar formosana 02.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Liquidambar_formosana_02.jpg",
+    "file": "sweetgum-leaf.webp"
+  },
+  {
+    "name": "楓香",
+    "slug": "sweetgum",
+    "role": "tree",
+    "source": "File:Liquidambar formosana 01.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Liquidambar_formosana_01.jpg",
+    "file": "sweetgum-tree.webp"
+  },
+  {
+    "name": "雞爪槭",
+    "slug": "maple",
+    "role": "leaf",
+    "source": "File:AcerPalmatum2.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:AcerPalmatum2.jpg",
+    "file": "maple-leaf.webp"
+  },
+  {
+    "name": "雞爪槭",
+    "slug": "maple",
+    "role": "tree",
+    "source": "File:FeralJapaneseMapleMD2.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:FeralJapaneseMapleMD2.jpg",
+    "file": "maple-tree.webp"
+  },
+  {
+    "name": "烏桕",
+    "slug": "tallow",
+    "role": "leaf",
+    "source": "File:Tallow2232.JPG",
+    "url": "https://commons.wikimedia.org/wiki/File:Tallow2232.JPG",
+    "file": "tallow-leaf.webp"
+  },
+  {
+    "name": "烏桕",
+    "slug": "tallow",
+    "role": "tree",
+    "source": "File:Autumn Triadica sebifera trees by a river in Saga.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Autumn_Triadica_sebifera_trees_by_a_river_in_Saga.jpg",
+    "file": "tallow-tree.webp"
+  },
+  {
+    "name": "水杉",
+    "slug": "redwood",
+    "role": "leaf",
+    "source": "File:Metasequoia glyptostroboides Autumn leaf color.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Metasequoia_glyptostroboides_Autumn_leaf_color.jpg",
+    "file": "redwood-leaf.webp"
+  },
+  {
+    "name": "水杉",
+    "slug": "redwood",
+    "role": "tree",
+    "source": "File:Autumn metasequoia glyptostroboides.JPG",
+    "url": "https://commons.wikimedia.org/wiki/File:Autumn_metasequoia_glyptostroboides.JPG",
+    "file": "redwood-tree.webp"
+  },
+  {
+    "name": "櫸樹",
+    "slug": "zelkova",
+    "role": "leaf",
+    "source": "File:Zelkova serrata5.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Zelkova_serrata5.jpg",
+    "file": "zelkova-leaf.webp"
+  },
+  {
+    "name": "櫸樹",
+    "slug": "zelkova",
+    "role": "tree",
+    "source": "File:Zelkova serrata entire.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Zelkova_serrata_entire.jpg",
+    "file": "zelkova-tree.webp"
+  },
+  {
+    "name": "無患子",
+    "slug": "soapberry",
+    "role": "leaf",
+    "source": "File:Sapindus mukorossi2.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Sapindus_mukorossi2.jpg",
+    "file": "soapberry-leaf.webp"
+  },
+  {
+    "name": "無患子",
+    "slug": "soapberry",
+    "role": "tree",
+    "source": "File:Sapindus mukorossi2.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Sapindus_mukorossi2.jpg",
+    "file": "soapberry-tree.webp"
+  },
+  {
+    "name": "欒樹",
+    "slug": "rain",
+    "role": "leaf",
+    "source": "File:Feuille composée d'un Koelreuteria paniculata en novembre.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Feuille_compos%C3%A9e_d%27un_Koelreuteria_paniculata_en_novembre.jpg",
+    "file": "rain-leaf.webp"
+  },
+  {
+    "name": "欒樹",
+    "slug": "rain",
+    "role": "tree",
+    "source": "File:Koelreuteriapaniculatatatuape.JPG",
+    "url": "https://commons.wikimedia.org/wiki/File:Koelreuteriapaniculatatatuape.JPG",
+    "file": "rain-tree.webp"
+  },
+  {
+    "name": "黃連木",
+    "slug": "pistacia",
+    "role": "leaf",
+    "source": "File:黃連木 Pistacia chinensis 20210320101416 10.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:%E9%BB%83%E9%80%A3%E6%9C%A8_Pistacia_chinensis_20210320101416_10.jpg",
+    "file": "pistacia-leaf.webp"
+  },
+  {
+    "name": "黃連木",
+    "slug": "pistacia",
+    "role": "tree",
+    "source": "File:Pistacia chinensis West Berkeley 05.jpg",
+    "url": "https://commons.wikimedia.org/wiki/File:Pistacia_chinensis_West_Berkeley_05.jpg",
+    "file": "pistacia-tree.webp"
+  }
+]
